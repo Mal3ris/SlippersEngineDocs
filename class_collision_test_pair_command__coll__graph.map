@@ -1,0 +1,13 @@
+<map id="CollisionTestPairCommand" name="CollisionTestPairCommand">
+<area shape="rect" id="Node000001" title=" " alt="" coords="242,565,491,885"/>
+<area shape="rect" id="Node000002" href="$class_collision_test_command_base.html" title=" " alt="" coords="5,197,234,448"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,459,271,564,266,567,202,462"/>
+<area shape="rect" id="Node000003" href="$class_collision_dispatch_base.html" title=" " alt="" coords="259,189,474,456"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="369,456,369,548,364,548,364,456"/>
+<area shape="rect" id="Node000004" href="$class_collidable_group.html" title=" " alt="" coords="498,160,693,485"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="506,486,468,552,463,550,501,484"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="506,16,560,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="547,99,561,160,556,161,542,100"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="584,5,731,96"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="650,96,639,144,634,143,645,95"/>
+</map>

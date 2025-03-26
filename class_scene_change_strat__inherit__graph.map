@@ -1,0 +1,7 @@
+<map id="SceneChangeStrat" name="SceneChangeStrat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="89,5,310,453"/>
+<area shape="rect" id="Node000002" href="$class_change_strat.html" title=" " alt="" coords="5,501,193,832"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,469,140,502,134,501,142,467"/>
+<area shape="rect" id="Node000003" href="$class_null_strat.html" title=" " alt="" coords="218,549,384,784"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,467,276,549,271,550,252,469"/>
+</map>

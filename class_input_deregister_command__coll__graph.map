@@ -1,0 +1,16 @@
+<map id="InputDeregisterCommand" name="InputDeregisterCommand">
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,273,300,615"/>
+<area shape="rect" id="Node000005" href="$struct_inputable_1_1_registration_data.html" title=" " alt="" coords="69,695,306,892"/>
+<area shape="poly" id="edge8_Node000005_Node000001" title=" " alt="" coords="190,615,190,677,185,677,185,615"/>
+<area shape="rect" id="Node000002" href="$class_command_base.html" title=" " alt="" coords="211,5,393,224"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,239,250,274,245,273,257,237"/>
+<area shape="rect" id="Node000006" href="$class_input_register_command.html" title=" " alt="" coords="155,1591,369,1932"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="349,237,373,337,381,390,384,443,384,1325,380,1394,368,1463,352,1529,333,1592,328,1590,347,1528,363,1462,374,1393,378,1325,378,443,375,390,368,338,344,239"/>
+<area shape="rect" id="Node000003" href="$class_inputable.html" title=" " alt="" coords="9,1121,226,1527"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="35,1122,16,1042,4,944,7,866,25,789,55,694,80,629,85,631,60,696,30,790,13,866,9,943,21,1041,40,1121"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="158,1526,170,1566,173,1574,168,1575,165,1568,153,1527"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="30,956,225,1041"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="129,1041,127,1104,122,1104,124,1041"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="161,893,147,941,142,939,156,891"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="267,1591,269,1453,266,1294,255,1124,234,956,224,909,229,908,240,956,261,1123,271,1293,274,1453,273,1591"/>
+</map>

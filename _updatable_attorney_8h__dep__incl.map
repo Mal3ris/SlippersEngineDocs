@@ -1,0 +1,9 @@
+<map id="UpdatableAttorney.h" name="UpdatableAttorney.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="219,5,358,32"/>
+<area shape="rect" id="Node000002" href="$_updatable_manager_8cpp.html" title=" " alt="" coords="5,80,161,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,40,120,82,118,77,237,35"/>
+<area shape="rect" id="Node000003" href="$_update_deregister_command_8cpp.html" title=" " alt="" coords="184,80,392,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,48,291,80,286,80,286,48"/>
+<area shape="rect" id="Node000004" href="$_update_register_command_8cpp.html" title=" " alt="" coords="416,80,614,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="343,35,476,77,474,82,341,40"/>
+</map>

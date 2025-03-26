@@ -1,0 +1,7 @@
+<map id="CollidableManager" name="CollidableManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="107,208,317,619"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,29,203,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,119,144,191,139,192,116,121"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="227,5,416,144"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="302,145,286,193,281,191,297,143"/>
+</map>

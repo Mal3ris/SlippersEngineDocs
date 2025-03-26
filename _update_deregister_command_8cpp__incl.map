@@ -1,0 +1,17 @@
+<map id="UpdateDeregisterCommand.cpp" name="UpdateDeregisterCommand.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="93,5,301,32"/>
+<area shape="rect" id="Node000002" href="$_update_deregistercommand_8h.html" title=" " alt="" coords="5,80,200,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,35,133,73,129,68,179,30"/>
+<area shape="rect" id="Node000004" href="$_updatable_attorney_8h.html" title=" " alt="" coords="224,80,363,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="215,30,266,68,263,73,212,35"/>
+<area shape="rect" id="Node000003" href="$_command_base_8h.html" title=" " alt="" coords="41,155,164,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,107,105,139,100,139,100,107"/>
+<area shape="rect" id="Node000005" href="$_updatable_8h.html" title=" " alt="" coords="248,155,339,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="296,107,296,139,290,139,290,107"/>
+<area shape="rect" id="Node000006" href="$_registration_state_common_8h.html" title=" " alt="" coords="105,229,292,256"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="278,184,229,222,225,218,275,180"/>
+<area shape="rect" id="Node000007" href="$_updatable_manager_8h.html" title=" " alt="" coords="316,229,457,256"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="311,180,360,218,357,222,308,184"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="367,304,406,331"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="389,257,389,288,384,288,384,257"/>
+</map>

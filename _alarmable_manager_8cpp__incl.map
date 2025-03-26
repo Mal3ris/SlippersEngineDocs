@@ -1,0 +1,18 @@
+<map id="AlarmableManager.cpp" name="AlarmableManager.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="66,5,221,32"/>
+<area shape="rect" id="Node000002" href="$_alarmable_manager_8h.html" title=" " alt="" coords="5,245,146,272"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,35,98,54,78,81,67,120,64,160,66,198,72,230,66,231,61,199,58,160,61,119,73,79,94,51,120,30"/>
+<area shape="rect" id="Node000004" href="$_time_manager_8h.html" title=" " alt="" coords="88,80,199,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="146,33,146,64,141,64,141,33"/>
+<area shape="rect" id="Node000006" href="$_alarmable_attorney_8h.html" title=" " alt="" coords="224,80,362,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="171,30,254,70,252,75,168,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="52,320,99,347"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,273,78,304,73,304,73,273"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="87,155,213,197"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="147,107,150,139,145,140,142,107"/>
+<area shape="rect" id="Node000007" href="$_alarmable_8h.html" title=" " alt="" coords="242,163,333,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="295,107,292,148,287,147,289,107"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="255,192,124,242,122,237,253,187"/>
+<area shape="rect" id="Node000008" href="$_registration_state_common_8h.html" title=" " alt="" coords="194,245,381,272"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="290,190,290,230,285,230,285,190"/>
+</map>

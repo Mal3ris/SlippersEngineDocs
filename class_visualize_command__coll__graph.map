@@ -1,0 +1,8 @@
+<map id="VisualizeCommand" name="VisualizeCommand">
+<area shape="rect" id="Node000001" title=" " alt="" coords="77,5,282,336"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,400,205,469"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="136,336,122,385,117,383,131,335"/>
+<area shape="rect" id="Node000002" href="$class_visualizer_factory.html" title=" " alt="" coords="90,533,270,837"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,533,215,469,216,411,212,353,217,352,221,411,220,470,212,534"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,468,132,517,127,518,113,470"/>
+</map>

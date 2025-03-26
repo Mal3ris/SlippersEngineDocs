@@ -1,0 +1,14 @@
+<map id="Alarmable::RegistrationData" name="Alarmable::RegistrationData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="148,5,357,112"/>
+<area shape="rect" id="Node000004" href="$class_alarmable.html" title=" " alt="" coords="138,176,367,683"/>
+<area shape="poly" id="edge4_Node000004_Node000001" title=" " alt="" coords="255,112,255,159,250,159,250,112"/>
+<area shape="rect" id="Node000002" href="$class_alarm_register_command.html" title=" " alt="" coords="134,747,352,1125"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,808,96,748,69,684,26,541,12,480,4,423,4,366,15,308,36,245,70,175,97,139,132,110,135,114,101,143,74,177,41,247,20,309,10,367,9,423,17,479,31,540,74,682,101,746,137,805"/>
+<area shape="rect" id="Node000003" href="$class_command_base.html" title=" " alt="" coords="391,320,573,539"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="495,554,491,598,482,643,466,686,441,725,423,737,404,739,385,740,366,749,354,759,350,755,363,744,384,735,404,734,421,732,437,721,461,684,477,642,486,597,490,553"/>
+<area shape="rect" id="Node000005" href="$class_alarm_deregister_command.html" title=" " alt="" coords="377,768,606,1104"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="487,553,491,768,486,768,482,553"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="248,683,248,707,247,730,242,730,242,707,243,683"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="369,671,407,751,403,754,365,673"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="570,767,595,701,618,629,636,553,647,475,650,396,642,319,620,245,603,211,582,178,563,155,540,135,488,104,431,83,373,71,374,66,432,78,490,99,544,130,567,151,587,174,608,208,625,243,647,318,655,396,653,475,641,554,623,631,600,703,575,769"/>
+</map>
