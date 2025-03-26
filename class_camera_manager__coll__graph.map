@@ -1,0 +1,3 @@
+<map id="CameraManager" name="CameraManager">
+<area shape="rect" id="Node000001" title="Responsible for the current Camera and Camera2D. For functions go to Scene." alt="" coords="5,5,176,192"/>
+</map>

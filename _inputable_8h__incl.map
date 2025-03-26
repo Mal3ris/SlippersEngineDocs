@@ -1,0 +1,22 @@
+<map id="Inputable.h" name="Inputable.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="312,5,397,32"/>
+<area shape="rect" id="Node000002" href="$_registration_state_common_8h.html" title=" " alt="" coords="5,80,192,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,35,159,78,157,73,311,29"/>
+<area shape="rect" id="Node000003" href="$_key_state_common_8h.html" title=" " alt="" coords="166,155,306,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="321,35,286,54,257,82,244,110,239,140,234,139,239,108,252,78,283,49,318,30"/>
+<area shape="rect" id="Node000004" href="$_single_key_event_manager_8h.html" title=" " alt="" coords="267,80,442,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="357,33,357,64,352,64,352,33"/>
+<area shape="rect" id="Node000006" href="$_game_8h.html" title=" " alt="" coords="419,155,498,181"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="394,30,428,49,444,62,457,79,466,109,466,140,461,140,461,110,452,81,440,66,425,54,392,35"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="517,80,563,107"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="388,30,503,75,501,80,386,35"/>
+<area shape="poly" id="edge9_Node000004_Node000003" title=" " alt="" coords="335,109,271,149,268,144,332,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="335,155,374,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="357,107,357,139,352,139,352,107"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="374,105,430,143,427,148,371,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="415,304,502,331"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="454,183,445,204,437,230,438,261,447,289,442,291,433,261,432,229,440,203,449,181"/>
+<area shape="rect" id="Node000008" href="$_colors_common_8h.html" title=" " alt="" coords="446,229,570,256"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="469,180,493,215,489,218,465,183"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="501,258,478,293,473,290,497,255"/>
+</map>

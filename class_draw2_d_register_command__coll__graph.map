@@ -1,0 +1,7 @@
+<map id="Draw2DRegisterCommand" name="Draw2DRegisterCommand">
+<area shape="rect" id="Node000001" title=" " alt="" coords="82,288,316,592"/>
+<area shape="rect" id="Node000002" href="$class_command_base.html" title=" " alt="" coords="5,5,187,224"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,237,154,288,149,289,133,239"/>
+<area shape="rect" id="Node000003" href="$class_drawable2_d.html" title="Responsible for 2D Draw functions." alt="" coords="211,59,392,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="287,171,255,273,250,271,282,170"/>
+</map>

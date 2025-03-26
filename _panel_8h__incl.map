@@ -1,0 +1,10 @@
+<map id="Panel.h" name="Panel.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="18,5,83,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="31,155,117,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="39,34,15,67,9,86,11,106,25,126,43,143,39,147,21,130,7,108,4,86,10,64,35,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,80,79,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="53,33,53,64,48,64,48,33"/>
+<area shape="rect" id="Node000004" href="$_colors_common_8h.html" title=" " alt="" coords="103,80,227,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="72,30,133,69,131,74,69,35"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="151,109,103,147,100,143,148,105"/>
+</map>

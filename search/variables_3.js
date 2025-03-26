@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['darkblue_0',['DarkBlue',['../namespace_color.html#ad6f8eb8b6f9fa1e97b707e051bee55de',1,'Color']]],
+  ['darkcyan_1',['DarkCyan',['../namespace_color.html#abb626f23e18c71a307c0d4db4c3349f3',1,'Color']]],
+  ['darkgoldenrod_2',['DarkGoldenrod',['../namespace_color.html#ad4d3dad0acfea069c3114f9926e7c32c',1,'Color']]],
+  ['darkgray_3',['DarkGray',['../namespace_color.html#a83f0a7b4c07f8a2687210b4d7382843b',1,'Color']]],
+  ['darkgreen_4',['DarkGreen',['../namespace_color.html#af472e6455f04fc33c86e0b6790cbfc34',1,'Color']]],
+  ['darkkhaki_5',['DarkKhaki',['../namespace_color.html#afae1b4be16d3092f3d7572c86d90666c',1,'Color']]],
+  ['darkmagenta_6',['DarkMagenta',['../namespace_color.html#adfa99b60250b252d54f21671ad40f7d9',1,'Color']]],
+  ['darkolivegreen_7',['DarkOliveGreen',['../namespace_color.html#afb3df256fa05574cb6060e8a1c0fce0e',1,'Color']]],
+  ['darkorange_8',['DarkOrange',['../namespace_color.html#a21a286e9c77c8aae01e930b38cbbcbbe',1,'Color']]],
+  ['darkorchid_9',['DarkOrchid',['../namespace_color.html#a3c686e9d26ec6c08f96b94f2e8648729',1,'Color']]],
+  ['darkred_10',['DarkRed',['../namespace_color.html#a5a097298e6cfec813569b5293f7a35b2',1,'Color']]],
+  ['darksalmon_11',['DarkSalmon',['../namespace_color.html#a9c4cf768afe68f4ddbe41029bfc73a2a',1,'Color']]],
+  ['darkseagreen_12',['DarkSeaGreen',['../namespace_color.html#ae6c9d182a482d1f4f3b54afd4d34f68c',1,'Color']]],
+  ['darkslateblue_13',['DarkSlateBlue',['../namespace_color.html#aac4e9e2c19b15829120a42d306907c2a',1,'Color']]],
+  ['darkslategray_14',['DarkSlateGray',['../namespace_color.html#aeb5961232f8fb273299bd90cf4b95636',1,'Color']]],
+  ['darkturquoise_15',['DarkTurquoise',['../namespace_color.html#a84dcb64c8f7067dddede6212ae0edd9a',1,'Color']]],
+  ['darkviolet_16',['DarkViolet',['../namespace_color.html#af4a734a3e61790424c72da8798f098ce',1,'Color']]],
+  ['deeppink_17',['DeepPink',['../namespace_color.html#a99f30654785f803510ea67ad8925d4a9',1,'Color']]],
+  ['deepskyblue_18',['DeepSkyBlue',['../namespace_color.html#a6d247016825d466d5a11fbfb9c3da58d',1,'Color']]],
+  ['default_5fcolor_19',['DEFAULT_COLOR',['../class_visualizer.html#a9fe571d7d003bad427bb15648685b679',1,'Visualizer']]],
+  ['dimgray_20',['DimGray',['../namespace_color.html#a6cc267f277b77fa77e70f180c6403027',1,'Color']]],
+  ['dodgerblue_21',['DodgerBlue',['../namespace_color.html#a79902a574f8134aff02c9793f59da57a',1,'Color']]]
+];

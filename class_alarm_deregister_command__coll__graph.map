@@ -1,0 +1,7 @@
+<map id="AlarmDeregisterCommand" name="AlarmDeregisterCommand">
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,315,326,651"/>
+<area shape="rect" id="Node000002" href="$class_command_base.html" title=" " alt="" coords="5,19,187,237"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,250,159,314,154,316,133,252"/>
+<area shape="rect" id="Node000003" href="$class_alarmable.html" title="Responsible for Alarm functions." alt="" coords="212,5,440,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="289,251,273,300,268,298,284,250"/>
+</map>

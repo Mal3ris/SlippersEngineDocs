@@ -1,0 +1,15 @@
+<map id="GameObject" name="GameObject">
+<area shape="rect" id="Node000001" title="Responsible for GameObject centralization." alt="" coords="538,411,701,544"/>
+<area shape="rect" id="Node000002" href="$class_updatable.html" title="Responsible for Update functions." alt="" coords="5,128,186,240"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,253,154,310,175,337,200,361,239,387,282,409,373,441,461,460,539,470,538,475,460,465,371,446,280,414,237,391,197,365,172,341,150,313,118,255"/>
+<area shape="rect" id="Node000003" href="$class_drawable.html" title="Responsible for 3D Draw functions." alt="" coords="211,128,392,240"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="332,252,363,309,383,336,406,361,437,386,471,409,540,444,537,449,468,414,433,391,402,365,379,339,359,312,327,255"/>
+<area shape="rect" id="Node000004" href="$class_drawable2_d.html" title="Responsible for 2D Draw functions." alt="" coords="416,128,597,240"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="536,253,597,410,592,412,531,255"/>
+<area shape="rect" id="Node000005" href="$class_alarmable.html" title="Responsible for Alarm functions." alt="" coords="620,5,848,363"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="662,378,648,412,643,410,657,376"/>
+<area shape="rect" id="Node000006" href="$class_inputable.html" title="Responsible for Input functions." alt="" coords="873,85,1089,283"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="922,297,895,333,863,365,825,393,784,417,702,453,700,448,781,412,822,388,859,361,891,329,918,294"/>
+<area shape="rect" id="Node000007" href="$class_collidable.html" title="Responsible for Collision functions." alt="" coords="1114,72,1316,296"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1156,310,1132,340,1103,365,1055,394,1003,418,949,437,895,452,790,470,701,478,701,472,789,465,894,447,948,432,1001,413,1052,390,1100,361,1128,336,1152,306"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="SceneChangeStrat" name="SceneChangeStrat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,226,341"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="228,138,246,151,253,173,250,188,243,199,238,196,245,186,248,174,242,154,225,142"/>
+<area shape="rect" id="Node000002" href="$class_scene_manager.html" title=" " alt="" coords="117,405,318,1083"/>
+<area shape="poly" id="edge5_Node000002_Node000001" title=" " alt="" coords="114,341,114,365,114,381,116,396,111,397,109,382,109,365,109,341"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="193,406,185,366,184,358,189,357,190,365,198,405"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="319,679,329,689,337,703,343,722,344,744,341,774,332,796,327,794,336,773,339,744,337,723,332,705,325,692,315,683"/>
+<area shape="rect" id="Node000003" href="$class_scene.html" title="Responsible for Scene functions." alt="" coords="353,37,527,309"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="390,310,326,471,321,469,385,308"/>
+</map>

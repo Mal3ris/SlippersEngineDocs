@@ -1,0 +1,11 @@
+<map id="Panel.h" name="Panel.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="72,5,138,32"/>
+<area shape="rect" id="Node000002" href="$_panel_8cpp.html" title=" " alt="" coords="5,80,85,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,46,57,81,53,78,83,42"/>
+<area shape="rect" id="Node000003" href="$_panel_attorney_8h.html" title=" " alt="" coords="108,80,222,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,42,157,78,153,81,123,46"/>
+<area shape="rect" id="Node000004" href="$_panel_factory_8cpp.html" title=" " alt="" coords="33,155,156,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="144,120,108,156,105,152,140,116"/>
+<area shape="rect" id="Node000005" href="$_screen_log_8cpp.html" title=" " alt="" coords="180,155,288,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="189,116,224,152,220,156,185,120"/>
+</map>

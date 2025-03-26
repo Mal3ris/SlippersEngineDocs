@@ -1,0 +1,5 @@
+<map id="Drawable" name="Drawable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,214,405"/>
+<area shape="rect" id="Node000002" href="$class_game_object.html" title="Responsible for GameObject centralization." alt="" coords="28,453,191,587"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,420,112,454,107,454,107,420"/>
+</map>
