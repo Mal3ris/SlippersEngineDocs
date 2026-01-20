@@ -134,10 +134,106 @@ Functions</h2></td></tr>
 <tr class="memitem:gacdbf2802ebfad70b24fa1afb20d52c5d" id="r_gacdbf2802ebfad70b24fa1afb20d52c5d"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; Vect &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacdbf2802ebfad70b24fa1afb20d52c5d">MathTools::ScreenToWorldPersp</a> (float x, float y)</td></tr>
 <tr class="memdesc:gacdbf2802ebfad70b24fa1afb20d52c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a screen position and returns the world position at the near and far clip plane.  <br /></td></tr>
 <tr class="separator:gacdbf2802ebfad70b24fa1afb20d52c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65546d822056ca5e10ebe18c4ab25f4b" id="r_ga65546d822056ca5e10ebe18c4ab25f4b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65546d822056ca5e10ebe18c4ab25f4b">MathTools::Clamp</a> (const float &amp;f, const float &amp;min, const float &amp;max)</td></tr>
+<tr class="memdesc:ga65546d822056ca5e10ebe18c4ab25f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamps a float between two other floats.  <br /></td></tr>
+<tr class="separator:ga65546d822056ca5e10ebe18c4ab25f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d58b3596ef3644fcd0ba3b3d06b5558" id="r_ga5d58b3596ef3644fcd0ba3b3d06b5558"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d58b3596ef3644fcd0ba3b3d06b5558">MathTools::Clamp</a> (const int &amp;f, const int &amp;min, const int &amp;max)</td></tr>
+<tr class="memdesc:ga5d58b3596ef3644fcd0ba3b3d06b5558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamps an int between two other ints.  <br /></td></tr>
+<tr class="separator:ga5d58b3596ef3644fcd0ba3b3d06b5558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Collection of math tools. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga65546d822056ca5e10ebe18c4ab25f4b" name="ga65546d822056ca5e10ebe18c4ab25f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga65546d822056ca5e10ebe18c4ab25f4b">&#9670;&#160;</a></span>Clamp() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MathTools::Clamp </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clamps a float between two other floats. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td></td></tr>
+    <tr><td class="paramname">min</td><td></td></tr>
+    <tr><td class="paramname">max</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ga5d58b3596ef3644fcd0ba3b3d06b5558" name="ga5d58b3596ef3644fcd0ba3b3d06b5558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d58b3596ef3644fcd0ba3b3d06b5558">&#9670;&#160;</a></span>Clamp() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MathTools::Clamp </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int &amp;</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int &amp;</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clamps an int between two other ints. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td></td></tr>
+    <tr><td class="paramname">min</td><td></td></tr>
+    <tr><td class="paramname">max</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="gae3e2c44177cdcbdd7cc394cd0432dbf0" name="gae3e2c44177cdcbdd7cc394cd0432dbf0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae3e2c44177cdcbdd7cc394cd0432dbf0">&#9670;&#160;</a></span>DegToRad()</h2>
 
@@ -203,7 +299,7 @@ Functions</h2></td></tr>
 <div class="line">    u.i = 0x1FBD1DF5 + (u.i &gt;&gt; 1);  <span class="comment">// Magic number approximation</span></div>
 <div class="line">    <span class="keywordflow">return</span> u.f;</div>
 <div class="line">}</div>
-<div class="ttc" id="agroup___math_tools_html_ga6868654bf632cdd5aa0dc1b5decc9f9f"><div class="ttname"><a href="#ga6868654bf632cdd5aa0dc1b5decc9f9f">MathTools::FastSqrt</a></div><div class="ttdeci">static float FastSqrt(float x)</div><div class="ttdoc">Calculate Sqrt without std::sqrt.</div><div class="ttdef"><b>Definition</b> MathTools.cpp:20</div></div>
+<div class="ttc" id="agroup___math_tools_html_ga6868654bf632cdd5aa0dc1b5decc9f9f"><div class="ttname"><a href="#ga6868654bf632cdd5aa0dc1b5decc9f9f">MathTools::FastSqrt</a></div><div class="ttdeci">static float FastSqrt(float x)</div><div class="ttdoc">Calculate Sqrt without std::sqrt.</div><div class="ttdef"><b>Definition</b> MathTools.cpp:278</div></div>
 </div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td></td></tr>

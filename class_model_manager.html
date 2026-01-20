@@ -120,7 +120,7 @@ Collaboration diagram for ModelManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_model_manager__coll__graph.png" border="0" usemap="#a_model_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="a_model_manager_coll__map" id="a_model_manager_coll__map">
-<area shape="rect" title="Singleton responisble for loading and retrieving models." alt="" coords="5,5,207,288"/>
+<area shape="rect" title="Singleton responisble for loading and retrieving models." alt="" coords="5,5,190,235"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -128,6 +128,9 @@ Collaboration diagram for ModelManager:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:af2c34acba3fc98bb62747aa39c443c9d" id="r_af2c34acba3fc98bb62747aa39c443c9d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2c34acba3fc98bb62747aa39c443c9d">DefaultModels</a> { <a class="el" href="#af2c34acba3fc98bb62747aa39c443c9da9e388340c6d15a821c4f93dfb9f1bd9c">AXIS</a>
 , <a class="el" href="#af2c34acba3fc98bb62747aa39c443c9daa3fa24dc97413321d9d6e58396ed6f13">UNITSQUAREXY</a>
+, <a class="el" href="#af2c34acba3fc98bb62747aa39c443c9dad01e7a77aabfc87604abf1a31c8810aa">UNITBOX</a>
+, <a class="el" href="#af2c34acba3fc98bb62747aa39c443c9da5fa56adfa79a94d87a5852bde7ae9ade">UNITSPHERE</a>
+, <a class="el" href="#af2c34acba3fc98bb62747aa39c443c9daddec896d58df494f07f641f81a8caff8">UNITEGG</a>
  }</td></tr>
 <tr class="memdesc:af2c34acba3fc98bb62747aa39c443c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of Preloaded Models.  <a href="#af2c34acba3fc98bb62747aa39c443c9d">More...</a><br /></td></tr>
 <tr class="separator:af2c34acba3fc98bb62747aa39c443c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,11 +143,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9485f4e6fc47026111f7f456beb83d0f" id="r_a9485f4e6fc47026111f7f456beb83d0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9485f4e6fc47026111f7f456beb83d0f">LoadModel</a> (const <a class="el" href="#a02153234585cc63840dce3340a826a33">MapKey</a> &amp;key, int planeSize, int u, int v)</td></tr>
 <tr class="memdesc:a9485f4e6fc47026111f7f456beb83d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Model with KEY, PLANESIZE, U, AND V.  <br /></td></tr>
 <tr class="separator:a9485f4e6fc47026111f7f456beb83d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47c2822dbfd99909dd0c359d7607d371" id="r_a47c2822dbfd99909dd0c359d7607d371"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c2822dbfd99909dd0c359d7607d371">LoadModel</a> (const <a class="el" href="#a02153234585cc63840dce3340a826a33">MapKey</a> &amp;key, const Model::PreMadeModels pmm)</td></tr>
-<tr class="memdesc:a47c2822dbfd99909dd0c359d7607d371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Shader with KEY and AZUL's PREMADEMODELS.  <br /></td></tr>
-<tr class="separator:a47c2822dbfd99909dd0c359d7607d371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65cb09d8142189c886bc3b68ec92a57b" id="r_a65cb09d8142189c886bc3b68ec92a57b"><td class="memItemLeft" align="right" valign="top">static Model *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65cb09d8142189c886bc3b68ec92a57b">GetModel</a> (const <a class="el" href="#a02153234585cc63840dce3340a826a33">MapKey</a> &amp;key)</td></tr>
-<tr class="memdesc:a65cb09d8142189c886bc3b68ec92a57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns model pointer with given KEY.  <br /></td></tr>
+<tr class="memdesc:a65cb09d8142189c886bc3b68ec92a57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Shader with KEY and AZUL's PREMADEMODELS.  <br /></td></tr>
 <tr class="separator:a65cb09d8142189c886bc3b68ec92a57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96ba6a9de6c54066cde501433d1b1f2d" id="r_a96ba6a9de6c54066cde501433d1b1f2d"><td class="memItemLeft" align="right" valign="top">static Model *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96ba6a9de6c54066cde501433d1b1f2d">GetModel</a> (<a class="el" href="#af2c34acba3fc98bb62747aa39c443c9d">DefaultModels</a> key)</td></tr>
 <tr class="memdesc:a96ba6a9de6c54066cde501433d1b1f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns model pointer from DEFAULTMODELS.  <br /></td></tr>
@@ -208,6 +208,9 @@ Private Types</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af2c34acba3fc98bb62747aa39c443c9da9e388340c6d15a821c4f93dfb9f1bd9c" name="af2c34acba3fc98bb62747aa39c443c9da9e388340c6d15a821c4f93dfb9f1bd9c"></a>AXIS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af2c34acba3fc98bb62747aa39c443c9daa3fa24dc97413321d9d6e58396ed6f13" name="af2c34acba3fc98bb62747aa39c443c9daa3fa24dc97413321d9d6e58396ed6f13"></a>UNITSQUAREXY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af2c34acba3fc98bb62747aa39c443c9dad01e7a77aabfc87604abf1a31c8810aa" name="af2c34acba3fc98bb62747aa39c443c9dad01e7a77aabfc87604abf1a31c8810aa"></a>UNITBOX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af2c34acba3fc98bb62747aa39c443c9da5fa56adfa79a94d87a5852bde7ae9ade" name="af2c34acba3fc98bb62747aa39c443c9da5fa56adfa79a94d87a5852bde7ae9ade"></a>UNITSPHERE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af2c34acba3fc98bb62747aa39c443c9daddec896d58df494f07f641f81a8caff8" name="af2c34acba3fc98bb62747aa39c443c9daddec896d58df494f07f641f81a8caff8"></a>UNITEGG&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -236,7 +239,16 @@ Private Types</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns model pointer with given KEY. </p>
+<p>Load Shader with KEY and AZUL's PREMADEMODELS. </p>
+<p>A function callable in SlippersResources/LoadResources that takes in a String as a key for retrieval, as well as an AZUL premade model. Checks for repeated key use.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+    <tr><td class="paramname">preMadeModel</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Returns model pointer with given KEY</p>
 <p>A function that returns a model pointer based on a user generated key. Checks if key already exists.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -283,47 +295,8 @@ Private Types</h2></td></tr>
 
 </div>
 </div>
-<a id="a47c2822dbfd99909dd0c359d7607d371" name="a47c2822dbfd99909dd0c359d7607d371"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c2822dbfd99909dd0c359d7607d371">&#9670;&#160;</a></span>LoadModel() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ModelManager::LoadModel </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a02153234585cc63840dce3340a826a33">MapKey</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Model::PreMadeModels</td>          <td class="paramname"><span class="paramname"><em>pmm</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Load Shader with KEY and AZUL's PREMADEMODELS. </p>
-<p>A function callable in SlippersResources/LoadResources that takes in a String as a key for retrieval, as well as an AZUL premade model. Checks for repeated key use.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">key</td><td></td></tr>
-    <tr><td class="paramname">preMadeModel</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a559f10d2e693f1946cc6c89a811154b5" name="a559f10d2e693f1946cc6c89a811154b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a559f10d2e693f1946cc6c89a811154b5">&#9670;&#160;</a></span>LoadModel() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a559f10d2e693f1946cc6c89a811154b5">&#9670;&#160;</a></span>LoadModel() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,7 +335,7 @@ Private Types</h2></td></tr>
 </div>
 </div>
 <a id="a9485f4e6fc47026111f7f456beb83d0f" name="a9485f4e6fc47026111f7f456beb83d0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9485f4e6fc47026111f7f456beb83d0f">&#9670;&#160;</a></span>LoadModel() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9485f4e6fc47026111f7f456beb83d0f">&#9670;&#160;</a></span>LoadModel() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -17,5 +17,6 @@ var class_sprite =
     [ "SetCenter", "class_sprite.html#acfc417614c31b0d0bbc5e3e262be00e8", null ],
     [ "SetPosition", "class_sprite.html#a90956a4d64ea4909c59b79aa999fac0f", null ],
     [ "SetScaleFactor", "class_sprite.html#acbe3864b4d88c5824cfcd557c72116b1", null ],
-    [ "SetScalePixel", "class_sprite.html#a7890d56b321fc17c54533440e65f4a4c", null ]
+    [ "SetScalePixel", "class_sprite.html#a7890d56b321fc17c54533440e65f4a4c", null ],
+    [ "UpdateWorld", "class_sprite.html#a3318936a531461dc17a4928bd657f9b8", null ]
 ];

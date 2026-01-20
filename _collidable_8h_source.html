@@ -119,80 +119,95 @@ $(function(){initNavTree('_collidable_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_scene_attorney_8h.html">SceneAttorney.h</a>&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_collision_volume_b_sphere_8h.html">CollisionVolumeBSphere.h</a>&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>CollideRegisterCommand;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>CollideDeregisterCommand;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
-<div class="foldopen" id="foldopen00182" data-start="{" data-end="};">
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="class_collidable.html">  182</a></span><span class="keyword">class </span><a class="code hl_class" href="class_collidable.html">Collidable</a> {</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span></div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keyword">friend</span> <span class="keyword">class </span>CollidableAttorney;</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <a class="code hl_class" href="class_collidable.html">Collidable</a>();</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <a class="code hl_class" href="class_collidable.html">Collidable</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_collidable.html">Collidable</a>&amp;) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <a class="code hl_class" href="class_collidable.html">Collidable</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="class_collidable.html">Collidable</a>&amp;) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_collidable.html">~Collidable</a>();</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keyword">const</span> CollisionVolumeBSphere&amp; <a class="code hl_function" href="class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f">GetBSphere</a>();</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    CollidableManager::TypeID myID = CollidableManager::ID_UNDEFINED;</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    RegistrationState RegStateCurr;</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span> </div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    CollidableGroup::StorageListRef pMyDelRef;</div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    </div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    CollideRegisterCommand* myReg;</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    CollideDeregisterCommand* myDereg;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="_collision_volume_a_a_b_b_8h.html">CollisionVolumeAABB.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="_collision_volume_o_b_b_8h.html">CollisionVolumeOBB.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="_collision_volume_bounding_box_8h.html">CollisionVolumeBoundingBox.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>CollideRegisterCommand;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>CollideDeregisterCommand;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="foldopen" id="foldopen00186" data-start="{" data-end="};">
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno"><a class="line" href="class_collidable.html">  186</a></span><span class="keyword">class </span><a class="code hl_class" href="class_collidable.html">Collidable</a> {</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span></div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keyword">friend</span> <span class="keyword">class </span>CollidableAttorney;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno"><a class="line" href="class_collidable.html#ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99">  193</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="class_collidable.html#ad8001f525589605653f3a058356209f8">VOLUME_TYPE</a> { <a class="code hl_enumvalue" href="class_collidable.html#ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6">BSPHERE</a>, <a class="code hl_enumvalue" href="class_collidable.html#ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99">AABB</a>, <a class="code hl_enumvalue" href="class_collidable.html#ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da">OBB</a>};</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <a class="code hl_class" href="class_collidable.html">Collidable</a>();</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <a class="code hl_class" href="class_collidable.html">Collidable</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_collidable.html">Collidable</a>&amp;) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <a class="code hl_class" href="class_collidable.html">Collidable</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="class_collidable.html">Collidable</a>&amp;) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_collidable.html">~Collidable</a>();</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="keyword">const</span> CollisionVolumeBSphere&amp; GetColVolumeBSphere();</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span></div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    <span class="keyword">const</span> CollisionVolume&amp; <a class="code hl_function" href="class_collidable.html#a6f5208549d3900c66e76b3ac60696cbb">GetColVolume</a>();</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    </div>
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    CollisionVolumeBSphere BSphere;</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    Model* pColModel;</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="keywordtype">void</span> SceneRegistration();</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keywordtype">void</span> SceneDeregistration();</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span></div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#add19f3dbe5cad788986e652252251678">SubmitRegistration</a>();</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#a01c3a0bd441b72e0823942ca54d484dd">SubmitDeregistration</a>();</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#aa6d1beabe13a24d5979766c72d8017b3">SetColliderModel</a>(Model* mod);</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span></div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#abda6bc1b9af57826bbfd32b09b1219cb">UpdateCollisionData</a>(<span class="keyword">const</span> Matrix&amp; mat);</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    CollidableManager::TypeID myID = CollidableManager::ID_UNDEFINED;</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    RegistrationState RegStateCurr;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    CollidableGroup::StorageListRef pMyDelRef;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    </div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    CollideRegisterCommand* myReg = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    CollideDeregisterCommand* myDereg = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    CollisionVolumeBSphere* BSphere = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    CollisionVolume* ColVolume = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    Model* pColModel = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="keywordtype">void</span> SceneRegistration();</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="keywordtype">void</span> SceneDeregistration();</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span></div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#add19f3dbe5cad788986e652252251678">SubmitRegistration</a>();</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#a01c3a0bd441b72e0823942ca54d484dd">SubmitDeregistration</a>();</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#a638d910f8e6b9de76f033e1d25d470df">SetColliderModel</a>(Model* mod, <a class="code hl_enumeration" href="class_collidable.html#ad8001f525589605653f3a058356209f8">VOLUME_TYPE</a> vt);</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span></div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> C&gt;</div>
-<div class="foldopen" id="foldopen00281" data-start="{" data-end="}">
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno"><a class="line" href="class_collidable.html#acb4f120f1833dabab33de2432dec35a8">  281</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#acb4f120f1833dabab33de2432dec35a8">SetCollidableGroup</a>() {</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        <span class="comment">//myID = SceneManager::GetCurrScene()-&gt;GetColManager()-&gt;GetTypeID&lt;C&gt;();</span></div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>        myID = SceneAttorney::CollideRegistration::GetColManager(<a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>())-&gt;GetTypeID&lt;C&gt;();</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    }</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#abda6bc1b9af57826bbfd32b09b1219cb">UpdateCollisionData</a>(<span class="keyword">const</span> Matrix&amp; mat);</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> C&gt;</div>
+<div class="foldopen" id="foldopen00293" data-start="{" data-end="}">
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno"><a class="line" href="class_collidable.html#acb4f120f1833dabab33de2432dec35a8">  293</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_collidable.html#acb4f120f1833dabab33de2432dec35a8">SetCollidableGroup</a>() {</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        <span class="comment">//myID = SceneManager::GetCurrScene()-&gt;GetColManager()-&gt;GetTypeID&lt;C&gt;();</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>        myID = SceneAttorney::CollideRegistration::GetColManager(<a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>())-&gt;GetTypeID&lt;C&gt;();</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    }</div>
 </div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>};</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>};</div>
 </div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#endif _Collidable</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="preprocessor">#endif _Collidable</span></div>
 <div class="ttc" id="a_collidable_group_8h_html"><div class="ttname"><a href="_collidable_group_8h.html">CollidableGroup.h</a></div></div>
 <div class="ttc" id="a_collidable_manager_8h_html"><div class="ttname"><a href="_collidable_manager_8h.html">CollidableManager.h</a></div></div>
+<div class="ttc" id="a_collision_volume_a_a_b_b_8h_html"><div class="ttname"><a href="_collision_volume_a_a_b_b_8h.html">CollisionVolumeAABB.h</a></div></div>
 <div class="ttc" id="a_collision_volume_b_sphere_8h_html"><div class="ttname"><a href="_collision_volume_b_sphere_8h.html">CollisionVolumeBSphere.h</a></div></div>
+<div class="ttc" id="a_collision_volume_bounding_box_8h_html"><div class="ttname"><a href="_collision_volume_bounding_box_8h.html">CollisionVolumeBoundingBox.h</a></div></div>
+<div class="ttc" id="a_collision_volume_o_b_b_8h_html"><div class="ttname"><a href="_collision_volume_o_b_b_8h.html">CollisionVolumeOBB.h</a></div></div>
 <div class="ttc" id="a_registration_state_common_8h_html"><div class="ttname"><a href="_registration_state_common_8h.html">RegistrationStateCommon.h</a></div></div>
 <div class="ttc" id="a_scene_attorney_8h_html"><div class="ttname"><a href="_scene_attorney_8h.html">SceneAttorney.h</a></div></div>
 <div class="ttc" id="a_scene_manager_8h_html"><div class="ttname"><a href="_scene_manager_8h.html">SceneManager.h</a></div></div>
-<div class="ttc" id="aclass_collidable_html"><div class="ttname"><a href="class_collidable.html">Collidable</a></div><div class="ttdoc">Responsible for Collision functions.</div><div class="ttdef"><b>Definition</b> Collidable.h:182</div></div>
-<div class="ttc" id="aclass_collidable_html_a01c3a0bd441b72e0823942ca54d484dd"><div class="ttname"><a href="class_collidable.html#a01c3a0bd441b72e0823942ca54d484dd">Collidable::SubmitDeregistration</a></div><div class="ttdeci">void SubmitDeregistration()</div><div class="ttdoc">Called when wanting to stop checking for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:49</div></div>
-<div class="ttc" id="aclass_collidable_html_a6aee8b1571e98b7fda6c7a683094558f"><div class="ttname"><a href="class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f">Collidable::GetBSphere</a></div><div class="ttdeci">const CollisionVolumeBSphere &amp; GetBSphere()</div><div class="ttdoc">Retrieves the Collider Model&#39;s BSphere.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:57</div></div>
-<div class="ttc" id="aclass_collidable_html_aa6d1beabe13a24d5979766c72d8017b3"><div class="ttname"><a href="class_collidable.html#aa6d1beabe13a24d5979766c72d8017b3">Collidable::SetColliderModel</a></div><div class="ttdeci">void SetColliderModel(Model *mod)</div><div class="ttdoc">Stores an Objects Collision Model for calculating collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:61</div></div>
-<div class="ttc" id="aclass_collidable_html_abda6bc1b9af57826bbfd32b09b1219cb"><div class="ttname"><a href="class_collidable.html#abda6bc1b9af57826bbfd32b09b1219cb">Collidable::UpdateCollisionData</a></div><div class="ttdeci">void UpdateCollisionData(const Matrix &amp;mat)</div><div class="ttdoc">Updates Objects Collision Model for proper scaling and positioning.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:65</div></div>
-<div class="ttc" id="aclass_collidable_html_acb4f120f1833dabab33de2432dec35a8"><div class="ttname"><a href="class_collidable.html#acb4f120f1833dabab33de2432dec35a8">Collidable::SetCollidableGroup</a></div><div class="ttdeci">void SetCollidableGroup()</div><div class="ttdoc">Registers a DemoObject to be part of a Collision Group.</div><div class="ttdef"><b>Definition</b> Collidable.h:281</div></div>
-<div class="ttc" id="aclass_collidable_html_add19f3dbe5cad788986e652252251678"><div class="ttname"><a href="class_collidable.html#add19f3dbe5cad788986e652252251678">Collidable::SubmitRegistration</a></div><div class="ttdeci">void SubmitRegistration()</div><div class="ttdoc">Called when wanting to check for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:41</div></div>
+<div class="ttc" id="aclass_collidable_html"><div class="ttname"><a href="class_collidable.html">Collidable</a></div><div class="ttdoc">Responsible for Collision functions.</div><div class="ttdef"><b>Definition</b> Collidable.h:186</div></div>
+<div class="ttc" id="aclass_collidable_html_a01c3a0bd441b72e0823942ca54d484dd"><div class="ttname"><a href="class_collidable.html#a01c3a0bd441b72e0823942ca54d484dd">Collidable::SubmitDeregistration</a></div><div class="ttdeci">void SubmitDeregistration()</div><div class="ttdoc">Called when wanting to stop checking for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:55</div></div>
+<div class="ttc" id="aclass_collidable_html_a638d910f8e6b9de76f033e1d25d470df"><div class="ttname"><a href="class_collidable.html#a638d910f8e6b9de76f033e1d25d470df">Collidable::SetColliderModel</a></div><div class="ttdeci">void SetColliderModel(Model *mod, VOLUME_TYPE vt)</div><div class="ttdoc">Stores an Objects Collision Model for calculating collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:71</div></div>
+<div class="ttc" id="aclass_collidable_html_a6f5208549d3900c66e76b3ac60696cbb"><div class="ttname"><a href="class_collidable.html#a6f5208549d3900c66e76b3ac60696cbb">Collidable::GetColVolume</a></div><div class="ttdeci">const CollisionVolume &amp; GetColVolume()</div><div class="ttdoc">Retrieves the Collider Model&#39;s Collision Volume.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:63</div></div>
+<div class="ttc" id="aclass_collidable_html_abda6bc1b9af57826bbfd32b09b1219cb"><div class="ttname"><a href="class_collidable.html#abda6bc1b9af57826bbfd32b09b1219cb">Collidable::UpdateCollisionData</a></div><div class="ttdeci">void UpdateCollisionData(const Matrix &amp;mat)</div><div class="ttdoc">Updates Objects Collision Model for proper scaling and positioning.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:89</div></div>
+<div class="ttc" id="aclass_collidable_html_acb4f120f1833dabab33de2432dec35a8"><div class="ttname"><a href="class_collidable.html#acb4f120f1833dabab33de2432dec35a8">Collidable::SetCollidableGroup</a></div><div class="ttdeci">void SetCollidableGroup()</div><div class="ttdoc">Registers a DemoObject to be part of a Collision Group.</div><div class="ttdef"><b>Definition</b> Collidable.h:293</div></div>
+<div class="ttc" id="aclass_collidable_html_ad8001f525589605653f3a058356209f8"><div class="ttname"><a href="class_collidable.html#ad8001f525589605653f3a058356209f8">Collidable::VOLUME_TYPE</a></div><div class="ttdeci">VOLUME_TYPE</div><div class="ttdoc">3 Types of Collision Tests</div><div class="ttdef"><b>Definition</b> Collidable.h:193</div></div>
+<div class="ttc" id="aclass_collidable_html_ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6"><div class="ttname"><a href="class_collidable.html#ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6">Collidable::VOLUME_TYPE::BSPHERE</a></div><div class="ttdeci">@ BSPHERE</div><div class="ttdef"><b>Definition</b> Collidable.h:193</div></div>
+<div class="ttc" id="aclass_collidable_html_ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99"><div class="ttname"><a href="class_collidable.html#ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99">Collidable::VOLUME_TYPE::AABB</a></div><div class="ttdeci">@ AABB</div><div class="ttdef"><b>Definition</b> Collidable.h:193</div></div>
+<div class="ttc" id="aclass_collidable_html_ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da"><div class="ttname"><a href="class_collidable.html#ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da">Collidable::VOLUME_TYPE::OBB</a></div><div class="ttdeci">@ OBB</div><div class="ttdef"><b>Definition</b> Collidable.h:193</div></div>
+<div class="ttc" id="aclass_collidable_html_add19f3dbe5cad788986e652252251678"><div class="ttname"><a href="class_collidable.html#add19f3dbe5cad788986e652252251678">Collidable::SubmitRegistration</a></div><div class="ttdeci">void SubmitRegistration()</div><div class="ttdoc">Called when wanting to check for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:47</div></div>
 <div class="ttc" id="aclass_scene_manager_html_a10e38032e77306bc25ae174148bb1e6d"><div class="ttname"><a href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a></div><div class="ttdeci">static Scene * GetCurrScene()</div><div class="ttdoc">Returns pointer to current scene.</div><div class="ttdef"><b>Definition</b> SceneManager.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9eb4373e01729c794e1056361937abce.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="dir_cbac82b0f99d7b43c1c298f5ca61f89b.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="dir_5dc48eee3365f83dff3005aeec506f03.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="_collidable_8h.html">Collidable.h</a></li>
+    <li class="navelem"><a class="el" href="dir_7f630e5a97d86fd0e6e9f160c6ffeca6.html">Sound Demo</a></li><li class="navelem"><a class="el" href="dir_6b703daa233e20bb7873fcd32ab5b530.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="dir_7bcd5554d8a16b93403d703198cde189.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="_collidable_8h.html">Collidable.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -2,6 +2,7 @@ var topics =
 [
     [ "Camera", "group___camera.html", "group___camera" ],
     [ "Game Objects", "group___game_objects.html", "group___game_objects" ],
+    [ "Sound", "group___sound.html", "group___sound" ],
     [ "Math Tools", "group___math_tools.html", "group___math_tools" ],
     [ "Scenes", "group___scenes.html", "group___scenes" ],
     [ "Sprites", "group___sprites.html", "group___sprites" ],

@@ -118,14 +118,14 @@ $(function(){initNavTree('_camera_manager_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>{</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">friend</span> <span class="keyword">class </span>CameraManagerAttorney;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    Camera* camCurr;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    Camera* camDefault;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    Camera* camCurr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    Camera* camDefault = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    Camera* cam2D;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    Camera* cam2D = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">float</span> nClipPersp;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">float</span> fClipPersp;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">float</span> fov;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">float</span> nClipPersp = 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">float</span> fClipPersp = 0;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">float</span> fov = 0;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    Camera* <a class="code hl_function" href="class_camera_manager.html#a8bb98e4350eeeccaf96a3f539342d602">GetCurrCam</a>();</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
@@ -168,17 +168,17 @@ $(function(){initNavTree('_camera_manager_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="preprocessor">#endif _CameraManager</span></div>
 <div class="ttc" id="aclass_camera_manager_html"><div class="ttname"><a href="class_camera_manager.html">CameraManager</a></div><div class="ttdoc">Responsible for the current Camera and Camera2D. For functions go to Scene.</div><div class="ttdef"><b>Definition</b> CameraManager.h:51</div></div>
-<div class="ttc" id="aclass_camera_manager_html_a16a2f40897508e360d905ce350f3e7b8"><div class="ttname"><a href="class_camera_manager.html#a16a2f40897508e360d905ce350f3e7b8">CameraManager::UpdateCam</a></div><div class="ttdeci">void UpdateCam()</div><div class="ttdoc">Responsible for updating the main camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:45</div></div>
-<div class="ttc" id="aclass_camera_manager_html_a5b832a508766d7d20332a789388c31e9"><div class="ttname"><a href="class_camera_manager.html#a5b832a508766d7d20332a789388c31e9">CameraManager::GetCam2D</a></div><div class="ttdeci">Camera * GetCam2D()</div><div class="ttdoc">Retrieval of current 2D camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:53</div></div>
-<div class="ttc" id="aclass_camera_manager_html_a7fb4aec5dc8cc79dc9a7b495fe9eddff"><div class="ttname"><a href="class_camera_manager.html#a7fb4aec5dc8cc79dc9a7b495fe9eddff">CameraManager::MoveCam</a></div><div class="ttdeci">void MoveCam(Vect up, Vect lookAt, Vect pos)</div><div class="ttdoc">Moves main camera and changes orientation.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:41</div></div>
-<div class="ttc" id="aclass_camera_manager_html_a8bb98e4350eeeccaf96a3f539342d602"><div class="ttname"><a href="class_camera_manager.html#a8bb98e4350eeeccaf96a3f539342d602">CameraManager::GetCurrCam</a></div><div class="ttdeci">Camera * GetCurrCam()</div><div class="ttdoc">Retrieval of current camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:49</div></div>
-<div class="ttc" id="aclass_camera_manager_html_ac7ba4a5fac9a9cafccb93373f3cde421"><div class="ttname"><a href="class_camera_manager.html#ac7ba4a5fac9a9cafccb93373f3cde421">CameraManager::SetCurrCam</a></div><div class="ttdeci">void SetCurrCam(Camera *newCam)</div><div class="ttdoc">Swaps main Camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:57</div></div>
+<div class="ttc" id="aclass_camera_manager_html_a16a2f40897508e360d905ce350f3e7b8"><div class="ttname"><a href="class_camera_manager.html#a16a2f40897508e360d905ce350f3e7b8">CameraManager::UpdateCam</a></div><div class="ttdeci">void UpdateCam()</div><div class="ttdoc">Responsible for updating the main camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:68</div></div>
+<div class="ttc" id="aclass_camera_manager_html_a5b832a508766d7d20332a789388c31e9"><div class="ttname"><a href="class_camera_manager.html#a5b832a508766d7d20332a789388c31e9">CameraManager::GetCam2D</a></div><div class="ttdeci">Camera * GetCam2D()</div><div class="ttdoc">Retrieval of current 2D camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:76</div></div>
+<div class="ttc" id="aclass_camera_manager_html_a7fb4aec5dc8cc79dc9a7b495fe9eddff"><div class="ttname"><a href="class_camera_manager.html#a7fb4aec5dc8cc79dc9a7b495fe9eddff">CameraManager::MoveCam</a></div><div class="ttdeci">void MoveCam(Vect up, Vect lookAt, Vect pos)</div><div class="ttdoc">Moves main camera and changes orientation.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:54</div></div>
+<div class="ttc" id="aclass_camera_manager_html_a8bb98e4350eeeccaf96a3f539342d602"><div class="ttname"><a href="class_camera_manager.html#a8bb98e4350eeeccaf96a3f539342d602">CameraManager::GetCurrCam</a></div><div class="ttdeci">Camera * GetCurrCam()</div><div class="ttdoc">Retrieval of current camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:72</div></div>
+<div class="ttc" id="aclass_camera_manager_html_ac7ba4a5fac9a9cafccb93373f3cde421"><div class="ttname"><a href="class_camera_manager.html#ac7ba4a5fac9a9cafccb93373f3cde421">CameraManager::SetCurrCam</a></div><div class="ttdeci">void SetCurrCam(Camera *newCam)</div><div class="ttdoc">Swaps main Camera.</div><div class="ttdef"><b>Definition</b> CameraManager.cpp:80</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9eb4373e01729c794e1056361937abce.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="dir_cbac82b0f99d7b43c1c298f5ca61f89b.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="dir_5dc48eee3365f83dff3005aeec506f03.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="_camera_manager_8h.html">CameraManager.h</a></li>
+    <li class="navelem"><a class="el" href="dir_7f630e5a97d86fd0e6e9f160c6ffeca6.html">Sound Demo</a></li><li class="navelem"><a class="el" href="dir_6b703daa233e20bb7873fcd32ab5b530.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="dir_7bcd5554d8a16b93403d703198cde189.html">SlippersEngine</a></li><li class="navelem"><a class="el" href="_camera_manager_8h.html">CameraManager.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -1,0 +1,19 @@
+<map id="SoundSourceBase.h" name="SoundSourceBase.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="180,5,320,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,167,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,28,152,35,124,45,99,61,79,81,73,95,71,110,77,140,72,141,66,110,68,93,74,79,96,57,122,41,150,30,179,23"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="271,155,357,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="321,27,368,45,390,59,407,79,412,89,412,100,402,119,383,136,360,150,357,145,380,132,398,116,407,99,407,90,402,81,386,63,366,50,319,32"/>
+<area shape="rect" id="Node000004" href="$_sound_manager_8h.html" title=" " alt="" coords="273,80,392,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,31,309,68,305,72,263,35"/>
+<area shape="rect" id="Node000006" href="$_sound_source_manager_8h.html" title=" " alt="" coords="88,80,249,107"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="238,35,196,72,192,68,234,31"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="290,110,145,152,143,147,289,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="332,108,324,140,318,139,327,107"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="382,155,428,181"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="347,105,383,142,380,145,343,109"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="156,109,113,146,110,142,153,105"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="195,105,276,145,274,150,193,110"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="191,155,229,181"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="178,106,198,140,193,143,174,109"/>
+</map>

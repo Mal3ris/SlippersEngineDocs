@@ -1,0 +1,7 @@
+<map id="SoundSourceWorld" name="SoundSourceWorld">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,123,208,565"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="12,5,89,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,89,69,122,63,123,57,90"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="114,5,212,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,90,150,123,145,122,151,89"/>
+</map>

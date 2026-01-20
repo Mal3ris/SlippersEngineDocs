@@ -1,7 +1,0 @@
-<map id="CollidableGroup" name="CollidableGroup">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,160,200,485"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="15,16,68,85"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,99,69,160,64,161,50,100"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="92,5,239,96"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,96,147,144,142,143,153,95"/>
-</map>

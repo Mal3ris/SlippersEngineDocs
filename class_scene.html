@@ -119,7 +119,7 @@ Collaboration diagram for Scene:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scene__coll__graph.png" border="0" usemap="#a_scene_coll__map" alt="Collaboration graph"/></div>
 <map name="a_scene_coll__map" id="a_scene_coll__map">
-<area shape="rect" title="Responsible for Scene functions." alt="" coords="5,5,199,437"/>
+<area shape="rect" title="Responsible for Scene functions." alt="" coords="5,5,199,469"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -133,6 +133,13 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:af198d5dc3e3a472f32ef71100517323b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af198d5dc3e3a472f32ef71100517323b">SetCollisionSelf</a> ()</td></tr>
 <tr class="memdesc:af198d5dc3e3a472f32ef71100517323b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a test pair for a <a class="el" href="class_game_object.html" title="Responsible for GameObject centralization.">GameObject</a> to collide with same typed <a class="el" href="class_game_object.html">GameObjects</a>.  <br /></td></tr>
 <tr class="separator:af198d5dc3e3a472f32ef71100517323b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d75d5b8235aaa0a0927f7db0ed9b35" id="r_a53d75d5b8235aaa0a0927f7db0ed9b35"><td class="memTemplParams" colspan="2">template&lt;typename C1&gt; </td></tr>
+<tr class="memitem:a53d75d5b8235aaa0a0927f7db0ed9b35"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a53d75d5b8235aaa0a0927f7db0ed9b35">SetCollisionTerrain</a> (int threshold)</td></tr>
+<tr class="memdesc:a53d75d5b8235aaa0a0927f7db0ed9b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a test pair for a <a class="el" href="class_game_object.html" title="Responsible for GameObject centralization.">GameObject</a> to collide with the Terrain.  <br /></td></tr>
+<tr class="separator:a53d75d5b8235aaa0a0927f7db0ed9b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624c43470170aa5ee8383ecbf49a373e" id="r_a624c43470170aa5ee8383ecbf49a373e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a624c43470170aa5ee8383ecbf49a373e">SetTerrain</a> (std::string TerrainName)</td></tr>
+<tr class="memdesc:a624c43470170aa5ee8383ecbf49a373e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Terrain for a given <a class="el" href="class_scene.html" title="Responsible for Scene functions.">Scene</a>.  <br /></td></tr>
+<tr class="separator:a624c43470170aa5ee8383ecbf49a373e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -169,6 +176,57 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:acdfe8b8df88ee4239a2335280b25cdad" id="r_acdfe8b8df88ee4239a2335280b25cdad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdfe8b8df88ee4239a2335280b25cdad">UpdateCam</a> ()</td></tr>
 <tr class="memdesc:acdfe8b8df88ee4239a2335280b25cdad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Current Camera. For more information go to <a class="el" href="class_camera_manager.html" title="Responsible for the current Camera and Camera2D. For functions go to Scene.">CameraManager</a>.  <br /></td></tr>
 <tr class="separator:acdfe8b8df88ee4239a2335280b25cdad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72aac07b06d61c17200062f7385e415f" id="r_a72aac07b06d61c17200062f7385e415f"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72aac07b06d61c17200062f7385e415f">GetListenerPos</a> ()</td></tr>
+<tr class="memdesc:a72aac07b06d61c17200062f7385e415f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Position. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>.  <br /></td></tr>
+<tr class="separator:a72aac07b06d61c17200062f7385e415f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d82a27285866cee2e4f0779804671d" id="r_ae1d82a27285866cee2e4f0779804671d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1d82a27285866cee2e4f0779804671d">SetListenerPos</a> (Vect p)</td></tr>
+<tr class="memdesc:ae1d82a27285866cee2e4f0779804671d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Position. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>.  <br /></td></tr>
+<tr class="separator:ae1d82a27285866cee2e4f0779804671d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1efd5a88e953a475183a230f4c6658" id="r_a3d1efd5a88e953a475183a230f4c6658"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d1efd5a88e953a475183a230f4c6658">GetListenerLookAt</a> ()</td></tr>
+<tr class="memdesc:a3d1efd5a88e953a475183a230f4c6658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Look At Vect. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>.  <br /></td></tr>
+<tr class="separator:a3d1efd5a88e953a475183a230f4c6658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f7387b3123daf41fe2997c77669dad" id="r_ac6f7387b3123daf41fe2997c77669dad"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6f7387b3123daf41fe2997c77669dad">GetListenerUp</a> ()</td></tr>
+<tr class="memdesc:ac6f7387b3123daf41fe2997c77669dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Up Vect. For more information go to Listeners.  <br /></td></tr>
+<tr class="separator:ac6f7387b3123daf41fe2997c77669dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132dd0e2dd5f29545978531471264385" id="r_a132dd0e2dd5f29545978531471264385"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a132dd0e2dd5f29545978531471264385">SetListenerOrientation</a> (Vect lookAt, Vect up)</td></tr>
+<tr class="memdesc:a132dd0e2dd5f29545978531471264385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Position. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>.  <br /></td></tr>
+<tr class="separator:a132dd0e2dd5f29545978531471264385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606b68e0d4e4fade9ec092a774b17b6f" id="r_a606b68e0d4e4fade9ec092a774b17b6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a606b68e0d4e4fade9ec092a774b17b6f">MuteAllSounds</a> ()</td></tr>
+<tr class="memdesc:a606b68e0d4e4fade9ec092a774b17b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutes all current and future sounds.  <br /></td></tr>
+<tr class="separator:a606b68e0d4e4fade9ec092a774b17b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f232ac28e4e889e28f64492676853a9" id="r_a9f232ac28e4e889e28f64492676853a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f232ac28e4e889e28f64492676853a9">UnmuteAllSounds</a> ()</td></tr>
+<tr class="memdesc:a9f232ac28e4e889e28f64492676853a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unmutes all current and future sounds.  <br /></td></tr>
+<tr class="separator:a9f232ac28e4e889e28f64492676853a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8cb2aea31cd1405d27372783a90e7b6" id="r_af8cb2aea31cd1405d27372783a90e7b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sound_source_world.html">SoundSourceWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8cb2aea31cd1405d27372783a90e7b6">CreateSourceWorld</a> ()</td></tr>
+<tr class="memdesc:af8cb2aea31cd1405d27372783a90e7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a <a class="el" href="class_sound_source_world.html" title="Responsible for Sound Sources that can be placed in world space. Go To Scene for creation and destruc...">SoundSourceWorld</a>.  <br /></td></tr>
+<tr class="separator:af8cb2aea31cd1405d27372783a90e7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ba15aacd3b973ddc01c75a9f43608e" id="r_ab8ba15aacd3b973ddc01c75a9f43608e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sound_source_listener.html">SoundSourceListener</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8ba15aacd3b973ddc01c75a9f43608e">CreateSourceListener</a> ()</td></tr>
+<tr class="memdesc:ab8ba15aacd3b973ddc01c75a9f43608e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a <a class="el" href="class_sound_source_listener.html" title="Responsible for Sound Sources that always play at the Listener&#39;s position. Go To Scene for creation a...">SoundSourceListener</a>.  <br /></td></tr>
+<tr class="separator:ab8ba15aacd3b973ddc01c75a9f43608e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc46623ef511e6edc8ade8e5ba041aba" id="r_afc46623ef511e6edc8ade8e5ba041aba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc46623ef511e6edc8ade8e5ba041aba">ReturnSoundSource</a> (<a class="el" href="class_sound_source_world.html">SoundSourceWorld</a> *w)</td></tr>
+<tr class="memdesc:afc46623ef511e6edc8ade8e5ba041aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to return a sound to a scene.  <br /></td></tr>
+<tr class="separator:afc46623ef511e6edc8ade8e5ba041aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1873473c5ce88a590e6ff1a137560b77" id="r_a1873473c5ce88a590e6ff1a137560b77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1873473c5ce88a590e6ff1a137560b77">ReturnSoundSource</a> (<a class="el" href="class_sound_source_listener.html">SoundSourceListener</a> *l)</td></tr>
+<tr class="memdesc:a1873473c5ce88a590e6ff1a137560b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to return a sound to a scene.  <br /></td></tr>
+<tr class="separator:a1873473c5ce88a590e6ff1a137560b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766658361239e7d1f0b3d8d8034d84d5" id="r_a766658361239e7d1f0b3d8d8034d84d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a766658361239e7d1f0b3d8d8034d84d5">IsInsideReverbSpace</a> ()</td></tr>
+<tr class="memdesc:a766658361239e7d1f0b3d8d8034d84d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if inside a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a>.  <br /></td></tr>
+<tr class="separator:a766658361239e7d1f0b3d8d8034d84d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a03acf32969b78b0f9865a03cf0199" id="r_ac9a03acf32969b78b0f9865a03cf0199"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_reverb_space.html">ReverbSpace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9a03acf32969b78b0f9865a03cf0199">CreateReverbSpace</a> (const ALuint &amp;reverb)</td></tr>
+<tr class="memdesc:ac9a03acf32969b78b0f9865a03cf0199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a> with a reverb from <a class="el" href="class_reverb_manager.html" title="Singleton responisble for loading and retrieving Reverbs.">ReverbManager</a>.  <br /></td></tr>
+<tr class="separator:ac9a03acf32969b78b0f9865a03cf0199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda3868d138baa46632897e2e771d94c" id="r_acda3868d138baa46632897e2e771d94c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_reverb_space.html">ReverbSpace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acda3868d138baa46632897e2e771d94c">CreateReverbSpace</a> (const float &amp;wMat, const float &amp;fMat, const float &amp;cMat)</td></tr>
+<tr class="memdesc:acda3868d138baa46632897e2e771d94c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a> with a dynamic reverb.  <br /></td></tr>
+<tr class="separator:acda3868d138baa46632897e2e771d94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74a5561930b5cb8ca6e97936b62eb30c" id="r_a74a5561930b5cb8ca6e97936b62eb30c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74a5561930b5cb8ca6e97936b62eb30c">ReturnReverbSpace</a> (<a class="el" href="class_reverb_space.html">ReverbSpace</a> *s)</td></tr>
+<tr class="memdesc:a74a5561930b5cb8ca6e97936b62eb30c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to return a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a> to a scene.  <br /></td></tr>
+<tr class="separator:a74a5561930b5cb8ca6e97936b62eb30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fc3b4c17fe298b211539fb33eb9f8d" id="r_a61fc3b4c17fe298b211539fb33eb9f8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61fc3b4c17fe298b211539fb33eb9f8d">SetTerrainMaterial</a> (float m)</td></tr>
+<tr class="memdesc:a61fc3b4c17fe298b211539fb33eb9f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Terrain Material for occlusion. Defaults to no occlusion.  <br /></td></tr>
+<tr class="separator:a61fc3b4c17fe298b211539fb33eb9f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba66d8247b157c34543e49fa2fd1443c" id="r_aba66d8247b157c34543e49fa2fd1443c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba66d8247b157c34543e49fa2fd1443c">GetTerrainHeightAndNormal</a> (const Vect &amp;pos, float &amp;h, Vect &amp;n)</td></tr>
+<tr class="memdesc:aba66d8247b157c34543e49fa2fd1443c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to determine the height and normal of a specific point on the terrain.  <br /></td></tr>
+<tr class="separator:aba66d8247b157c34543e49fa2fd1443c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aa30bd33a5bd56a26e224318579f60c" id="r_a4aa30bd33a5bd56a26e224318579f60c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aa30bd33a5bd56a26e224318579f60c">Initialize</a> ()</td></tr>
 <tr class="memdesc:a4aa30bd33a5bd56a26e224318579f60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function automatically called on scene starting.  <br /></td></tr>
 <tr class="separator:a4aa30bd33a5bd56a26e224318579f60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,6 +238,158 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><p>Responsible for Scene functions. </p>
 <p><a class="el" href="class_game.html" title="Responsible for Game Start, Game End, Load Resources, and window related functions.">Game</a> objects are held by scenes. Scenes manage the back end of <a class="el" href="class_updatable.html">update</a>, <a class="el" href="class_drawable.html">draw</a>, <a class="el" href="class_drawable2_d.html">draw2d</a>, object registration, and setting up collision testing. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac9a03acf32969b78b0f9865a03cf0199" name="ac9a03acf32969b78b0f9865a03cf0199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a03acf32969b78b0f9865a03cf0199">&#9670;&#160;</a></span>CreateReverbSpace() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_reverb_space.html">ReverbSpace</a> * Scene::CreateReverbSpace </td>
+          <td>(</td>
+          <td class="paramtype">const ALuint &amp;</td>          <td class="paramname"><span class="paramname"><em>reverb</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to create a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a> with a reverb from <a class="el" href="class_reverb_manager.html" title="Singleton responisble for loading and retrieving Reverbs.">ReverbManager</a>. </p>
+<div class="fragment"><div class="line">revSpace = <a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#ac9a03acf32969b78b0f9865a03cf0199">CreateReverbSpace</a>(<a class="code hl_function" href="class_reverb_manager.html#a22afbf7ef24abf49a67980fd87b435c8">ReverbManager::GetReverb</a>(<span class="stringliteral">&quot;Test Reverb&quot;</span>));</div>
+<div class="line"> </div>
+<div class="line">revSpaceTwo = <a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#ac9a03acf32969b78b0f9865a03cf0199">CreateReverbSpace</a>(<a class="code hl_function" href="class_reverb_manager.html#a22afbf7ef24abf49a67980fd87b435c8">ReverbManager::GetReverb</a>(<a class="code hl_enumvalue" href="class_reverb_manager.html#abd7f6155f925886738b6c238da1925c1a14db90e75f1308d303d0bceb0be66ac1">ReverbManager::DefaultReverbs::CAVE</a>));</div>
+<div class="ttc" id="aclass_reverb_manager_html_a22afbf7ef24abf49a67980fd87b435c8"><div class="ttname"><a href="class_reverb_manager.html#a22afbf7ef24abf49a67980fd87b435c8">ReverbManager::GetReverb</a></div><div class="ttdeci">static const ALuint &amp; GetReverb(DefaultReverbs key)</div><div class="ttdoc">Returns Reverb from DEFAULT REVERBS.</div><div class="ttdef"><b>Definition</b> ReverbManager.h:85</div></div>
+<div class="ttc" id="aclass_reverb_manager_html_abd7f6155f925886738b6c238da1925c1a14db90e75f1308d303d0bceb0be66ac1"><div class="ttname"><a href="class_reverb_manager.html#abd7f6155f925886738b6c238da1925c1a14db90e75f1308d303d0bceb0be66ac1">ReverbManager::DefaultReverbs::CAVE</a></div><div class="ttdeci">@ CAVE</div><div class="ttdef"><b>Definition</b> ReverbManager.h:21</div></div>
+<div class="ttc" id="aclass_scene_html_ac9a03acf32969b78b0f9865a03cf0199"><div class="ttname"><a href="#ac9a03acf32969b78b0f9865a03cf0199">Scene::CreateReverbSpace</a></div><div class="ttdeci">ReverbSpace * CreateReverbSpace(const ALuint &amp;reverb)</div><div class="ttdoc">Used to create a ReverbSpace with a reverb from ReverbManager.</div><div class="ttdef"><b>Definition</b> Scene.cpp:185</div></div>
+<div class="ttc" id="aclass_scene_manager_html_a10e38032e77306bc25ae174148bb1e6d"><div class="ttname"><a href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a></div><div class="ttdeci">static Scene * GetCurrScene()</div><div class="ttdoc">Returns pointer to current scene.</div><div class="ttdef"><b>Definition</b> SceneManager.h:51</div></div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reverb</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ReverbSpace*</dd></dl>
+
+</div>
+</div>
+<a id="acda3868d138baa46632897e2e771d94c" name="acda3868d138baa46632897e2e771d94c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda3868d138baa46632897e2e771d94c">&#9670;&#160;</a></span>CreateReverbSpace() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_reverb_space.html">ReverbSpace</a> * Scene::CreateReverbSpace </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;</td>          <td class="paramname"><span class="paramname"><em>wMat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;</td>          <td class="paramname"><span class="paramname"><em>fMat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;</td>          <td class="paramname"><span class="paramname"><em>cMat</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to create a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a> with a dynamic reverb. </p>
+<div class="fragment"><div class="line">revSpace = <a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#ac9a03acf32969b78b0f9865a03cf0199">CreateReverbSpace</a>(<a class="code hl_variable" href="namespace_materials.html#ad00a7b6194cbb57ac807f7bdc1a32728">Materials::Brick</a>, <a class="code hl_variable" href="namespace_materials.html#aa84eb74de3e33a1a75eeb8482d7e9bf2">Materials::Dirt</a>, <a class="code hl_variable" href="namespace_materials.html#a8b3bfdc0c485f34a8db0b4cbc04d1d76">Materials::Wood</a>);</div>
+<div class="line"> </div>
+<div class="line">revSpaceTwo = <a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#ac9a03acf32969b78b0f9865a03cf0199">CreateReverbSpace</a>(<a class="code hl_function" href="class_reverb_manager.html#a22afbf7ef24abf49a67980fd87b435c8">ReverbManager::GetReverb</a>(.1f, .04f, .3f));</div>
+<div class="ttc" id="anamespace_materials_html_a8b3bfdc0c485f34a8db0b4cbc04d1d76"><div class="ttname"><a href="namespace_materials.html#a8b3bfdc0c485f34a8db0b4cbc04d1d76">Materials::Wood</a></div><div class="ttdeci">static const float Wood</div><div class="ttdef"><b>Definition</b> MaterialsCommon.h:18</div></div>
+<div class="ttc" id="anamespace_materials_html_aa84eb74de3e33a1a75eeb8482d7e9bf2"><div class="ttname"><a href="namespace_materials.html#aa84eb74de3e33a1a75eeb8482d7e9bf2">Materials::Dirt</a></div><div class="ttdeci">static const float Dirt</div><div class="ttdef"><b>Definition</b> MaterialsCommon.h:23</div></div>
+<div class="ttc" id="anamespace_materials_html_ad00a7b6194cbb57ac807f7bdc1a32728"><div class="ttname"><a href="namespace_materials.html#ad00a7b6194cbb57ac807f7bdc1a32728">Materials::Brick</a></div><div class="ttdeci">static const float Brick</div><div class="ttdef"><b>Definition</b> MaterialsCommon.h:15</div></div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wMat</td><td></td></tr>
+    <tr><td class="paramname">fMat</td><td></td></tr>
+    <tr><td class="paramname">cMat</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab8ba15aacd3b973ddc01c75a9f43608e" name="ab8ba15aacd3b973ddc01c75a9f43608e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8ba15aacd3b973ddc01c75a9f43608e">&#9670;&#160;</a></span>CreateSourceListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_sound_source_listener.html">SoundSourceListener</a> * Scene::CreateSourceListener </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to create a <a class="el" href="class_sound_source_listener.html" title="Responsible for Sound Sources that always play at the Listener&#39;s position. Go To Scene for creation a...">SoundSourceListener</a>. </p>
+<div class="fragment"><div class="line">sound = <a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#ab8ba15aacd3b973ddc01c75a9f43608e">CreateSourceListener</a>();</div>
+<div class="ttc" id="aclass_scene_html_ab8ba15aacd3b973ddc01c75a9f43608e"><div class="ttname"><a href="#ab8ba15aacd3b973ddc01c75a9f43608e">Scene::CreateSourceListener</a></div><div class="ttdeci">SoundSourceListener * CreateSourceListener()</div><div class="ttdoc">Used to create a SoundSourceListener.</div><div class="ttdef"><b>Definition</b> Scene.cpp:169</div></div>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>SoundSourceListener*</dd></dl>
+
+</div>
+</div>
+<a id="af8cb2aea31cd1405d27372783a90e7b6" name="af8cb2aea31cd1405d27372783a90e7b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8cb2aea31cd1405d27372783a90e7b6">&#9670;&#160;</a></span>CreateSourceWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_sound_source_world.html">SoundSourceWorld</a> * Scene::CreateSourceWorld </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to create a <a class="el" href="class_sound_source_world.html" title="Responsible for Sound Sources that can be placed in world space. Go To Scene for creation and destruc...">SoundSourceWorld</a>. </p>
+<div class="fragment"><div class="line">sound = <a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#af8cb2aea31cd1405d27372783a90e7b6">CreateSourceWorld</a>();</div>
+<div class="ttc" id="aclass_scene_html_af8cb2aea31cd1405d27372783a90e7b6"><div class="ttname"><a href="#af8cb2aea31cd1405d27372783a90e7b6">Scene::CreateSourceWorld</a></div><div class="ttdeci">SoundSourceWorld * CreateSourceWorld()</div><div class="ttdoc">Used to create a SoundSourceWorld.</div><div class="ttdef"><b>Definition</b> Scene.cpp:165</div></div>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>SoundSourceWorld*</dd></dl>
+
+</div>
+</div>
 <a id="a0deab46fd06649eb399ac82e9de7c9a2" name="a0deab46fd06649eb399ac82e9de7c9a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0deab46fd06649eb399ac82e9de7c9a2">&#9670;&#160;</a></span>GetCam2D()</h2>
 
@@ -315,6 +525,144 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3d1efd5a88e953a475183a230f4c6658" name="a3d1efd5a88e953a475183a230f4c6658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d1efd5a88e953a475183a230f4c6658">&#9670;&#160;</a></span>GetListenerLookAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect Scene::GetListenerLookAt </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Look At Vect. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>. </p>
+
+</div>
+</div>
+<a id="a72aac07b06d61c17200062f7385e415f" name="a72aac07b06d61c17200062f7385e415f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72aac07b06d61c17200062f7385e415f">&#9670;&#160;</a></span>GetListenerPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect Scene::GetListenerPos </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Position. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>. </p>
+
+</div>
+</div>
+<a id="ac6f7387b3123daf41fe2997c77669dad" name="ac6f7387b3123daf41fe2997c77669dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f7387b3123daf41fe2997c77669dad">&#9670;&#160;</a></span>GetListenerUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect Scene::GetListenerUp </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Up Vect. For more information go to Listeners. </p>
+
+</div>
+</div>
+<a id="aba66d8247b157c34543e49fa2fd1443c" name="aba66d8247b157c34543e49fa2fd1443c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba66d8247b157c34543e49fa2fd1443c">&#9670;&#160;</a></span>GetTerrainHeightAndNormal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::GetTerrainHeightAndNormal </td>
+          <td>(</td>
+          <td class="paramtype">const Vect &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>h</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to determine the height and normal of a specific point on the terrain. </p>
+<p>Returns 0 and Vect(0, 1, 0) if no terrain is set.</p>
+<div class="fragment"><div class="line"><span class="keywordtype">float</span> h;</div>
+<div class="line">Vect n;</div>
+<div class="line"> </div>
+<div class="line"><a class="code hl_function" href="#aba66d8247b157c34543e49fa2fd1443c">GetTerrainHeightAndNormal</a>(Vect(0, 0, 0), h, n);</div>
+<div class="line"> </div>
+<div class="line">Matrix tmpWorld = pGObj_DemoObjOne-&gt;getWorld();</div>
+<div class="line"> </div>
+<div class="line">Vect r = n.cross(tmpWorld.get(ROW_2));</div>
+<div class="line">Vect up = r.cross(n);</div>
+<div class="line">tmpWorld = Matrix(ROT_ORIENT, up, n) * Matrix(TRANS, Vect(0, h, 0));</div>
+<div class="line">pGObj_DemoObjOne-&gt;SetWorld(tmpWorld);</div>
+<div class="ttc" id="aclass_scene_html_aba66d8247b157c34543e49fa2fd1443c"><div class="ttname"><a href="#aba66d8247b157c34543e49fa2fd1443c">Scene::GetTerrainHeightAndNormal</a></div><div class="ttdeci">void GetTerrainHeightAndNormal(const Vect &amp;pos, float &amp;h, Vect &amp;n)</div><div class="ttdoc">Used to determine the height and normal of a specific point on the terrain.</div><div class="ttdef"><b>Definition</b> Scene.cpp:201</div></div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td></td></tr>
+    <tr><td class="paramname">h</td><td></td></tr>
+    <tr><td class="paramname">n</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a4aa30bd33a5bd56a26e224318579f60c" name="a4aa30bd33a5bd56a26e224318579f60c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4aa30bd33a5bd56a26e224318579f60c">&#9670;&#160;</a></span>Initialize()</h2>
 
@@ -340,6 +688,33 @@ Private Member Functions</h2></td></tr>
 
 <p>Function automatically called on scene starting. </p>
 <p>This function gets called whenever a scene is started or swapped to. This is a good location to create <a class="el" href="class_game_object.html">Game Objects</a> as well as <a class="el" href="#a7257d595b38462d1764a6c4e260b47f7">Collision Pairs</a> and <a class="el" href="#af198d5dc3e3a472f32ef71100517323b">Collision Selfs</a>. </p>
+
+</div>
+</div>
+<a id="a766658361239e7d1f0b3d8d8034d84d5" name="a766658361239e7d1f0b3d8d8034d84d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766658361239e7d1f0b3d8d8034d84d5">&#9670;&#160;</a></span>IsInsideReverbSpace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Scene::IsInsideReverbSpace </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if inside a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a>. </p>
 
 </div>
 </div>
@@ -376,6 +751,140 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Moves Current Camera. For more information go to <a class="el" href="class_camera_manager.html" title="Responsible for the current Camera and Camera2D. For functions go to Scene.">CameraManager</a>. </p>
+
+</div>
+</div>
+<a id="a606b68e0d4e4fade9ec092a774b17b6f" name="a606b68e0d4e4fade9ec092a774b17b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606b68e0d4e4fade9ec092a774b17b6f">&#9670;&#160;</a></span>MuteAllSounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::MuteAllSounds </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mutes all current and future sounds. </p>
+
+</div>
+</div>
+<a id="a74a5561930b5cb8ca6e97936b62eb30c" name="a74a5561930b5cb8ca6e97936b62eb30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74a5561930b5cb8ca6e97936b62eb30c">&#9670;&#160;</a></span>ReturnReverbSpace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::ReturnReverbSpace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_reverb_space.html">ReverbSpace</a> *</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to return a <a class="el" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction.">ReverbSpace</a> to a scene. </p>
+<div class="fragment"><div class="line"><a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#a74a5561930b5cb8ca6e97936b62eb30c">ReturnReverbSpace</a>(revSpace);</div>
+<div class="ttc" id="aclass_scene_html_a74a5561930b5cb8ca6e97936b62eb30c"><div class="ttname"><a href="#a74a5561930b5cb8ca6e97936b62eb30c">Scene::ReturnReverbSpace</a></div><div class="ttdeci">void ReturnReverbSpace(ReverbSpace *s)</div><div class="ttdoc">Used to return a ReverbSpace to a scene.</div><div class="ttdef"><b>Definition</b> Scene.cpp:193</div></div>
+</div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>All reverb spaces must be returned on scene end.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1873473c5ce88a590e6ff1a137560b77" name="a1873473c5ce88a590e6ff1a137560b77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1873473c5ce88a590e6ff1a137560b77">&#9670;&#160;</a></span>ReturnSoundSource() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::ReturnSoundSource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_sound_source_listener.html">SoundSourceListener</a> *</td>          <td class="paramname"><span class="paramname"><em>l</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to return a sound to a scene. </p>
+<div class="fragment"><div class="line"><a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#afc46623ef511e6edc8ade8e5ba041aba">ReturnSoundSource</a>(sound);</div>
+<div class="ttc" id="aclass_scene_html_afc46623ef511e6edc8ade8e5ba041aba"><div class="ttname"><a href="#afc46623ef511e6edc8ade8e5ba041aba">Scene::ReturnSoundSource</a></div><div class="ttdeci">void ReturnSoundSource(SoundSourceWorld *w)</div><div class="ttdoc">Used to return a sound to a scene.</div><div class="ttdef"><b>Definition</b> Scene.cpp:173</div></div>
+</div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>All sounds must be returned on scene end.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">w</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afc46623ef511e6edc8ade8e5ba041aba" name="afc46623ef511e6edc8ade8e5ba041aba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc46623ef511e6edc8ade8e5ba041aba">&#9670;&#160;</a></span>ReturnSoundSource() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::ReturnSoundSource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_sound_source_world.html">SoundSourceWorld</a> *</td>          <td class="paramname"><span class="paramname"><em>w</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to return a sound to a scene. </p>
+<div class="fragment"><div class="line"><a class="code hl_function" href="class_scene_manager.html#a10e38032e77306bc25ae174148bb1e6d">SceneManager::GetCurrScene</a>()-&gt;<a class="code hl_function" href="#afc46623ef511e6edc8ade8e5ba041aba">ReturnSoundSource</a>(sound);</div>
+</div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>All sounds must be returned on scene end.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">w</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -492,7 +1001,7 @@ template&lt;typename C1, typename C2&gt; </div>
 <div class="line">GameObjTwo* objTwo = <span class="keyword">new</span> GameObjTwo();</div>
 <div class="line"> </div>
 <div class="line"><a class="code hl_function" href="#a7257d595b38462d1764a6c4e260b47f7">SetCollisionPair&lt;GameObjOne, GameObjTwo&gt;</a>();</div>
-<div class="ttc" id="aclass_scene_html_a7257d595b38462d1764a6c4e260b47f7"><div class="ttname"><a href="#a7257d595b38462d1764a6c4e260b47f7">Scene::SetCollisionPair</a></div><div class="ttdeci">void SetCollisionPair()</div><div class="ttdoc">Creates a test pair for a GameObject to collide with different typed GameObjects.</div><div class="ttdef"><b>Definition</b> Scene.h:185</div></div>
+<div class="ttc" id="aclass_scene_html_a7257d595b38462d1764a6c4e260b47f7"><div class="ttname"><a href="#a7257d595b38462d1764a6c4e260b47f7">Scene::SetCollisionPair</a></div><div class="ttdeci">void SetCollisionPair()</div><div class="ttdoc">Creates a test pair for a GameObject to collide with different typed GameObjects.</div><div class="ttdef"><b>Definition</b> Scene.h:328</div></div>
 </div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">C1</td><td></td></tr>
@@ -534,11 +1043,58 @@ template&lt;typename C1&gt; </div>
 <div class="line">GameObjOne* objTwo = <span class="keyword">new</span> GameObjOne();</div>
 <div class="line"> </div>
 <div class="line"><a class="code hl_function" href="#af198d5dc3e3a472f32ef71100517323b">SetCollisionSelf&lt;GameObjOne&gt;</a>();</div>
-<div class="ttc" id="aclass_scene_html_af198d5dc3e3a472f32ef71100517323b"><div class="ttname"><a href="#af198d5dc3e3a472f32ef71100517323b">Scene::SetCollisionSelf</a></div><div class="ttdeci">void SetCollisionSelf()</div><div class="ttdoc">Creates a test pair for a GameObject to collide with same typed GameObjects.</div><div class="ttdef"><b>Definition</b> Scene.h:203</div></div>
+<div class="ttc" id="aclass_scene_html_af198d5dc3e3a472f32ef71100517323b"><div class="ttname"><a href="#af198d5dc3e3a472f32ef71100517323b">Scene::SetCollisionSelf</a></div><div class="ttdeci">void SetCollisionSelf()</div><div class="ttdoc">Creates a test pair for a GameObject to collide with same typed GameObjects.</div><div class="ttdef"><b>Definition</b> Scene.h:346</div></div>
 </div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">C1</td><td></td></tr>
     <tr><td class="paramname">C2</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a53d75d5b8235aaa0a0927f7db0ed9b35" name="a53d75d5b8235aaa0a0927f7db0ed9b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d75d5b8235aaa0a0927f7db0ed9b35">&#9670;&#160;</a></span>SetCollisionTerrain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C1&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::SetCollisionTerrain </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>threshold</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a test pair for a <a class="el" href="class_game_object.html" title="Responsible for GameObject centralization.">GameObject</a> to collide with the Terrain. </p>
+<p>Sets up a collision testing pair between a <a class="el" href="class_game_object.html">GameObjects</a> and the Terrain using templates. Go to <a class="el" href="class_collidable.html" title="Responsible for Collision functions.">Collidable</a> for more information. Will returna a hit if the amount of terrain cells equals or exceeds the given threshold.</p>
+<div class="fragment"><div class="line">GameObjOne* objOne = <span class="keyword">new</span> GameObjOne();</div>
+<div class="line">GameObjTwo* objTwo = <span class="keyword">new</span> GameObjTwo();</div>
+<div class="line"> </div>
+<div class="line"><a class="code hl_function" href="#af198d5dc3e3a472f32ef71100517323b">SetCollisionSelf&lt;GameObjOne&gt;</a>(1);</div>
+<div class="line"><a class="code hl_function" href="#af198d5dc3e3a472f32ef71100517323b">SetCollisionSelf&lt;GameObjTwo&gt;</a>(5);</div>
+</div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C1</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">threshold</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -596,6 +1152,155 @@ template&lt;typename C1&gt; </div>
 </div><div class="memdoc">
 
 <p>Sets FOV. For more information go to <a class="el" href="class_camera_manager.html" title="Responsible for the current Camera and Camera2D. For functions go to Scene.">CameraManager</a>. </p>
+
+</div>
+</div>
+<a id="a132dd0e2dd5f29545978531471264385" name="a132dd0e2dd5f29545978531471264385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132dd0e2dd5f29545978531471264385">&#9670;&#160;</a></span>SetListenerOrientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::SetListenerOrientation </td>
+          <td>(</td>
+          <td class="paramtype">Vect</td>          <td class="paramname"><span class="paramname"><em>lookAt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect</td>          <td class="paramname"><span class="paramname"><em>up</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Position. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>. </p>
+
+</div>
+</div>
+<a id="ae1d82a27285866cee2e4f0779804671d" name="ae1d82a27285866cee2e4f0779804671d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d82a27285866cee2e4f0779804671d">&#9670;&#160;</a></span>SetListenerPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::SetListenerPos </td>
+          <td>(</td>
+          <td class="paramtype">Vect</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a> Position. For more information go to <a class="el" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use.">Listener</a>. </p>
+
+</div>
+</div>
+<a id="a624c43470170aa5ee8383ecbf49a373e" name="a624c43470170aa5ee8383ecbf49a373e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a624c43470170aa5ee8383ecbf49a373e">&#9670;&#160;</a></span>SetTerrain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::SetTerrain </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>TerrainName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the Terrain for a given <a class="el" href="class_scene.html" title="Responsible for Scene functions.">Scene</a>. </p>
+<div class="fragment"><div class="line">SceneDemo::Initialize(){</div>
+<div class="line">    <a class="code hl_function" href="#a624c43470170aa5ee8383ecbf49a373e">SetTerrain</a>(<span class="stringliteral">&quot;Demo Terrain&quot;</span>);</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_scene_html_a624c43470170aa5ee8383ecbf49a373e"><div class="ttname"><a href="#a624c43470170aa5ee8383ecbf49a373e">Scene::SetTerrain</a></div><div class="ttdeci">void SetTerrain(std::string TerrainName)</div><div class="ttdoc">Sets the Terrain for a given Scene.</div><div class="ttdef"><b>Definition</b> Scene.cpp:210</div></div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TerrainName</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a61fc3b4c17fe298b211539fb33eb9f8d" name="a61fc3b4c17fe298b211539fb33eb9f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61fc3b4c17fe298b211539fb33eb9f8d">&#9670;&#160;</a></span>SetTerrainMaterial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::SetTerrainMaterial </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the Terrain Material for occlusion. Defaults to no occlusion. </p>
+
+</div>
+</div>
+<a id="a9f232ac28e4e889e28f64492676853a9" name="a9f232ac28e4e889e28f64492676853a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f232ac28e4e889e28f64492676853a9">&#9670;&#160;</a></span>UnmuteAllSounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::UnmuteAllSounds </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unmutes all current and future sounds. </p>
 
 </div>
 </div>

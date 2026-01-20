@@ -1,0 +1,9 @@
+<map id="SoundManager.h" name="SoundManager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,5,256,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,92,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,35,89,75,87,70,170,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="116,80,277,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,33,199,64,194,64,194,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="301,80,348,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="220,30,290,70,288,74,217,35"/>
+</map>

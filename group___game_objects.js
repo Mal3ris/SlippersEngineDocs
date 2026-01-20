@@ -13,9 +13,14 @@ var group___game_objects =
       [ "TimeUntil", "class_alarmable.html#a8df872023f63c57f636c792e99ed21b8", null ]
     ] ],
     [ "Collidable", "class_collidable.html", [
-      [ "GetBSphere", "class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f", null ],
+      [ "VOLUME_TYPE", "class_collidable.html#ad8001f525589605653f3a058356209f8", [
+        [ "BSPHERE", "class_collidable.html#ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6", null ],
+        [ "AABB", "class_collidable.html#ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99", null ],
+        [ "OBB", "class_collidable.html#ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da", null ]
+      ] ],
+      [ "GetColVolume", "class_collidable.html#a6f5208549d3900c66e76b3ac60696cbb", null ],
       [ "SetCollidableGroup", "class_collidable.html#acb4f120f1833dabab33de2432dec35a8", null ],
-      [ "SetColliderModel", "class_collidable.html#aa6d1beabe13a24d5979766c72d8017b3", null ],
+      [ "SetColliderModel", "class_collidable.html#a638d910f8e6b9de76f033e1d25d470df", null ],
       [ "SubmitDeregistration", "class_collidable.html#a01c3a0bd441b72e0823942ca54d484dd", null ],
       [ "SubmitRegistration", "class_collidable.html#add19f3dbe5cad788986e652252251678", null ],
       [ "UpdateCollisionData", "class_collidable.html#abda6bc1b9af57826bbfd32b09b1219cb", null ]
@@ -41,6 +46,12 @@ var group___game_objects =
       [ "KeyRelease", "class_inputable.html#a93e6093940284478ee0972096d4d8466", null ],
       [ "SubmitDeregistration", "class_inputable.html#a067c37e9b6372fb38000cfb69fd35495", null ],
       [ "SubmitRegistration", "class_inputable.html#a1611f38525c3e5510d9fdf01e2518a46", null ]
+    ] ],
+    [ "OccludableObj", "class_occludable_obj.html", [
+      [ "SetOcclusionModel", "class_occludable_obj.html#a12a04cee57aec420525f23bd6832437b", null ],
+      [ "SubmitDeregistration", "class_occludable_obj.html#a345dae7f3fcd5abd0a5f87ee403bbf16", null ],
+      [ "SubmitRegistration", "class_occludable_obj.html#a2388e8e7a0160e5e95995dfa30cd5b53", null ],
+      [ "UpdateOcclusionData", "class_occludable_obj.html#a902dee09ce848c17927d9767da0af4e4", null ]
     ] ],
     [ "Updatable", "class_updatable.html", [
       [ "SubmitDeregistration", "class_updatable.html#aa21b8820f5b27f79ebd1a36886130989", null ],

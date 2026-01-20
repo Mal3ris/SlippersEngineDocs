@@ -1,0 +1,29 @@
+<map id="ReverbableAttorney.h" name="ReverbableAttorney.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="213,5,360,32"/>
+<area shape="rect" id="Node000002" href="$_reverbable_8h.html" title=" " alt="" coords="237,80,336,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,33,289,64,284,64,284,33"/>
+<area shape="rect" id="Node000003" href="$_registration_state_common_8h.html" title=" " alt="" coords="5,155,192,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,110,147,151,145,146,253,105"/>
+<area shape="rect" id="Node000004" href="$_sound_source_base_8h.html" title=" " alt="" coords="216,155,357,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="289,107,289,139,284,139,284,107"/>
+<area shape="rect" id="Node000011" href="$_reverbable_manager_8h.html" title=" " alt="" coords="442,229,590,256"/>
+<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="307,105,485,219,482,223,305,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="232,304,394,331"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="322,180,355,199,369,212,381,228,385,248,378,266,365,283,348,297,345,293,361,279,373,263,379,247,376,230,365,216,351,203,320,184"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="87,304,174,331"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="220,185,115,208,73,221,52,231,48,239,47,247,55,264,71,280,92,294,89,298,68,284,51,267,42,248,43,238,49,227,71,216,114,203,219,179"/>
+<area shape="rect" id="Node000007" href="$_sound_manager_8h.html" title=" " alt="" coords="63,229,182,256"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="259,184,166,225,164,220,257,179"/>
+<area shape="rect" id="Node000009" href="$_sound_source_manager_8h.html" title=" " alt="" coords="206,229,367,256"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="289,182,289,214,284,214,284,182"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="157,254,267,296,265,301,155,259"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="127,256,130,288,125,289,121,257"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="17,304,63,331"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="110,259,67,296,64,292,106,255"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="294,256,306,289,301,290,289,257"/>
+<area shape="poly" id="edge12_Node000009_Node000006" title=" " alt="" coords="260,259,173,299,170,295,258,254"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="470,304,508,331"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="323,254,456,301,454,306,321,259"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="481,259,364,301,362,296,480,254"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="514,257,501,290,496,289,509,256"/>
+</map>

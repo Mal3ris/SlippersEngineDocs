@@ -22,15 +22,33 @@ var hierarchy =
     [ "Inputable", "class_inputable.html", [
       [ "GameObject", "class_game_object.html", null ]
     ] ],
+    [ "Listener", "class_listener.html", null ],
     [ "MathTools", "class_math_tools.html", null ],
     [ "ModelManager", "class_model_manager.html", null ],
+    [ "OccludableObj", "class_occludable_obj.html", [
+      [ "GameObject", "class_game_object.html", null ]
+    ] ],
     [ "Panel", "class_panel.html", null ],
+    [ "ReverbManager", "class_reverb_manager.html", null ],
+    [ "ReverbManager::ReverbParams", "struct_reverb_manager_1_1_reverb_params.html", null ],
+    [ "ReverbSpace", "class_reverb_space.html", null ],
     [ "Scene", "class_scene.html", null ],
     [ "SceneManager", "class_scene_manager.html", null ],
     [ "ScreenLog", "class_screen_log.html", null ],
     [ "ShaderManager", "class_shader_manager.html", null ],
+    [ "SoundManager", "class_sound_manager.html", null ],
+    [ "SoundSourceBase", "class_sound_source_base.html", [
+      [ "OccludableSnd", "class_occludable_snd.html", [
+        [ "SoundSourceWorld", "class_sound_source_world.html", null ]
+      ] ],
+      [ "Reverbable", "class_reverbable.html", [
+        [ "SoundSourceListener", "class_sound_source_listener.html", null ],
+        [ "SoundSourceWorld", "class_sound_source_world.html", null ]
+      ] ]
+    ] ],
     [ "Sprite", "class_sprite.html", null ],
     [ "SpriteString", "class_sprite_string.html", null ],
+    [ "TerrainObjectManager", "class_terrain_object_manager.html", null ],
     [ "TextureManager", "class_texture_manager.html", null ],
     [ "TimeManager", "class_time_manager.html", null ],
     [ "Updatable", "class_updatable.html", [

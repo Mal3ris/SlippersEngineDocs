@@ -1,0 +1,7 @@
+<map id="OccludableObjManager.h" name="OccludableObjManager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="27,80,66,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,34,64,68,59,65,79,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="90,80,176,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,31,120,65,115,68,94,34"/>
+</map>

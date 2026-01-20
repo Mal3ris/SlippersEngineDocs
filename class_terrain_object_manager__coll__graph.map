@@ -1,0 +1,3 @@
+<map id="TerrainObjectManager" name="TerrainObjectManager">
+<area shape="rect" id="Node000001" title="Singleton responisble for loading and retrieving TerrainObjects. For more Terrain Tools go to Scene." alt="" coords="5,5,203,192"/>
+</map>

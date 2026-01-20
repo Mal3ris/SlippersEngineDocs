@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['visualizer_0',['Visualizer',['../class_visualizer.html',1,'']]]
+  ['updatable_0',['Updatable',['../class_updatable.html',1,'']]]
 ];

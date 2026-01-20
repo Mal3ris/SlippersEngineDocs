@@ -17,9 +17,16 @@ var searchData=
   ['darkslategray_14',['DarkSlateGray',['../namespace_color.html#aeb5961232f8fb273299bd90cf4b95636',1,'Color']]],
   ['darkturquoise_15',['DarkTurquoise',['../namespace_color.html#a84dcb64c8f7067dddede6212ae0edd9a',1,'Color']]],
   ['darkviolet_16',['DarkViolet',['../namespace_color.html#af4a734a3e61790424c72da8798f098ce',1,'Color']]],
-  ['deeppink_17',['DeepPink',['../namespace_color.html#a99f30654785f803510ea67ad8925d4a9',1,'Color']]],
-  ['deepskyblue_18',['DeepSkyBlue',['../namespace_color.html#a6d247016825d466d5a11fbfb9c3da58d',1,'Color']]],
-  ['default_5fcolor_19',['DEFAULT_COLOR',['../class_visualizer.html#a9fe571d7d003bad427bb15648685b679',1,'Visualizer']]],
-  ['dimgray_20',['DimGray',['../namespace_color.html#a6cc267f277b77fa77e70f180c6403027',1,'Color']]],
-  ['dodgerblue_21',['DodgerBlue',['../namespace_color.html#a79902a574f8134aff02c9793f59da57a',1,'Color']]]
+  ['decayhfratio_17',['decayHFRatio',['../struct_reverb_manager_1_1_reverb_params.html#a197633963dd9c655b00ce09325475573',1,'ReverbManager::ReverbParams']]],
+  ['decaytime_18',['decayTime',['../struct_reverb_manager_1_1_reverb_params.html#ace59006016684d162362fd0dadc92f77',1,'ReverbManager::ReverbParams']]],
+  ['deeppink_19',['DeepPink',['../namespace_color.html#a99f30654785f803510ea67ad8925d4a9',1,'Color']]],
+  ['deepskyblue_20',['DeepSkyBlue',['../namespace_color.html#a6d247016825d466d5a11fbfb9c3da58d',1,'Color']]],
+  ['default_5fcolor_21',['DEFAULT_COLOR',['../class_visualizer.html#a9fe571d7d003bad427bb15648685b679',1,'Visualizer']]],
+  ['density_22',['density',['../struct_reverb_manager_1_1_reverb_params.html#a9e73f0cd15533ac0128531bdf1656848',1,'ReverbManager::ReverbParams']]],
+  ['diffusion_23',['diffusion',['../struct_reverb_manager_1_1_reverb_params.html#a3afebd404b3be536063649d771079b6d',1,'ReverbManager::ReverbParams']]],
+  ['dimgray_24',['DimGray',['../namespace_color.html#a6cc267f277b77fa77e70f180c6403027',1,'Color']]],
+  ['dirt_25',['Dirt',['../namespace_materials.html#aa84eb74de3e33a1a75eeb8482d7e9bf2',1,'Materials']]],
+  ['dodgerblue_26',['DodgerBlue',['../namespace_color.html#a79902a574f8134aff02c9793f59da57a',1,'Color']]],
+  ['drysand_27',['DrySand',['../namespace_materials.html#a1348a76be9ac729d52a20474564e21f0',1,'Materials']]],
+  ['drywall_28',['Drywall',['../namespace_materials.html#a1db82224e97eee109d9035d7aa969a2e',1,'Materials']]]
 ];

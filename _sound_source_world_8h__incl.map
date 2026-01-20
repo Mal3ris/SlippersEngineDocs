@@ -1,0 +1,40 @@
+<map id="SoundSourceWorld.h" name="SoundSourceWorld.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="209,5,353,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="159,304,320,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,35,195,62,127,104,93,130,62,160,34,194,13,230,8,243,12,254,32,269,63,281,144,300,143,305,62,286,29,273,8,258,3,243,8,228,30,190,58,156,90,126,124,99,192,57,248,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="543,304,629,331"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="353,21,461,35,524,49,589,69,653,95,713,130,766,174,789,200,809,228,816,251,810,270,794,285,770,296,708,310,645,317,644,312,708,305,768,291,791,280,806,267,811,251,804,231,785,203,762,178,710,134,651,100,588,74,523,54,460,40,353,26"/>
+<area shape="rect" id="Node000004" href="$_sound_manager_8h.html" title=" " alt="" coords="23,229,142,256"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,34,222,82,104,219,100,215,218,78,265,31"/>
+<area shape="rect" id="Node000006" href="$_reverbable_8h.html" title=" " alt="" coords="232,80,330,107"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="284,33,284,64,278,64,278,33"/>
+<area shape="rect" id="Node000012" href="$_occludable_snd_8h.html" title=" " alt="" coords="382,80,502,107"/>
+<area shape="poly" id="edge20_Node000001_Node000012" title=" " alt="" coords="310,30,401,71,399,76,308,35"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="111,254,199,295,197,299,109,259"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="143,252,153,253,528,305,527,310,152,259,142,257"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="59,304,105,331"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="85,257,85,288,80,288,80,257"/>
+<area shape="rect" id="Node000007" href="$_registration_state_common_8h.html" title=" " alt="" coords="188,155,374,181"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="284,107,284,139,278,139,278,107"/>
+<area shape="rect" id="Node000008" href="$_sound_source_base_8h.html" title=" " alt="" coords="399,155,539,181"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="315,105,423,146,421,151,313,110"/>
+<area shape="rect" id="Node000011" href="$_reverbable_manager_8h.html" title=" " alt="" coords="165,229,314,256"/>
+<area shape="poly" id="edge17_Node000006_Node000011" title=" " alt="" coords="240,110,205,128,190,141,178,156,174,172,180,189,192,204,208,218,205,222,189,208,175,191,169,173,173,154,186,137,202,123,237,105"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="451,184,273,298,270,293,448,180"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="500,180,533,199,563,228,578,258,586,288,581,289,573,260,559,231,530,203,497,184"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="402,185,158,230,157,225,401,179"/>
+<area shape="rect" id="Node000009" href="$_sound_source_manager_8h.html" title=" " alt="" coords="389,229,549,256"/>
+<area shape="poly" id="edge13_Node000008_Node000009" title=" " alt="" coords="472,182,472,214,466,214,466,182"/>
+<area shape="poly" id="edge14_Node000009_Node000002" title=" " alt="" coords="430,259,295,301,294,296,428,254"/>
+<area shape="poly" id="edge15_Node000009_Node000003" title=" " alt="" coords="491,254,554,293,552,298,488,259"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="450,304,488,331"/>
+<area shape="poly" id="edge16_Node000009_Node000010" title=" " alt="" coords="472,257,472,288,466,288,466,257"/>
+<area shape="poly" id="edge19_Node000011_Node000002" title=" " alt="" coords="242,257,242,288,237,288,237,257"/>
+<area shape="poly" id="edge18_Node000011_Node000010" title=" " alt="" coords="280,254,436,303,434,308,279,259"/>
+<area shape="poly" id="edge21_Node000012_Node000007" title=" " alt="" coords="415,110,324,150,322,145,413,105"/>
+<area shape="poly" id="edge22_Node000012_Node000008" title=" " alt="" coords="449,106,462,139,457,141,444,108"/>
+<area shape="rect" id="Node000013" href="$_occludable_snd_manager_8h.html" title=" " alt="" coords="624,229,794,256"/>
+<area shape="poly" id="edge23_Node000012_Node000013" title=" " alt="" coords="467,105,553,152,674,219,672,224,550,157,464,110"/>
+<area shape="poly" id="edge25_Node000013_Node000003" title=" " alt="" coords="689,259,622,298,620,293,686,254"/>
+<area shape="poly" id="edge24_Node000013_Node000010" title=" " alt="" coords="668,259,503,308,502,303,666,254"/>
+</map>

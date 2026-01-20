@@ -1,7 +1,0 @@
-<map id="CollisionTestCommandBase" name="CollisionTestCommandBase">
-<area shape="rect" id="Node000001" title=" " alt="" coords="145,5,374,256"/>
-<area shape="rect" id="Node000002" href="$class_collision_test_pair_command.html" title=" " alt="" coords="5,304,254,683"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,271,200,305,195,303,207,269"/>
-<area shape="rect" id="Node000003" href="$class_collision_test_self_command.html" title=" " alt="" coords="279,315,501,672"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="312,269,328,314,323,316,307,271"/>
-</map>

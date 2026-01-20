@@ -1,5 +1,0 @@
-<map id="AlarmDeregisterCommand" name="AlarmDeregisterCommand">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,272,234,629"/>
-<area shape="rect" id="Node000002" href="$class_command_base.html" title=" " alt="" coords="29,5,211,224"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,239,122,272,117,272,117,239"/>
-</map>

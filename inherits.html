@@ -110,19 +110,21 @@ $(function(){initNavTree('hierarchy.html',''); initResizable(true); });
 </div><table border="0" cellspacing="10" cellpadding="0">
 <tr><td><img src="inherit_graph_0.png" border="0" usemap="#a_alarmable" alt=""/>
 <map name="a_alarmable" id="a_alarmable">
-<area shape="rect" href="class_alarmable.html" title="Responsible for Alarm functions." alt="" coords="12,5,92,32"/>
-<area shape="rect" href="class_game_object.html" title="Responsible for GameObject centralization." alt="" coords="147,132,241,159"/>
-<area shape="poly" title=" " alt="" coords="96,38,100,42,149,88,184,130,180,133,145,92,97,46,92,43"/>
-<area shape="rect" href="class_collidable.html" title="Responsible for Collision functions." alt="" coords="13,56,91,83"/>
-<area shape="poly" title=" " alt="" coords="93,88,168,129,166,134,91,93"/>
-<area shape="rect" href="class_drawable.html" title="Responsible for 3D Draw functions." alt="" coords="14,107,90,133"/>
-<area shape="poly" title=" " alt="" coords="106,127,147,134,146,140,105,132"/>
-<area shape="rect" href="class_drawable2_d.html" title="Responsible for 2D Draw functions." alt="" coords="5,157,99,184"/>
-<area shape="poly" title=" " alt="" coords="114,157,146,151,147,156,115,162"/>
-<area shape="rect" href="class_inputable.html" title="Responsible for Input functions." alt="" coords="15,208,89,235"/>
-<area shape="poly" title=" " alt="" coords="91,198,166,157,168,162,93,202"/>
-<area shape="rect" href="class_updatable.html" title="Responsible for Update functions." alt="" coords="12,259,92,285"/>
-<area shape="poly" title=" " alt="" coords="92,248,97,245,145,199,180,157,184,161,149,202,100,249,96,252"/>
+<area shape="rect" href="class_alarmable.html" title="Responsible for Alarm functions." alt="" coords="19,5,98,32"/>
+<area shape="rect" href="class_game_object.html" title="Responsible for GameObject centralization." alt="" coords="160,157,254,184"/>
+<area shape="poly" title=" " alt="" coords="109,38,113,42,142,70,167,102,200,155,196,158,163,105,138,74,110,46,105,43"/>
+<area shape="rect" href="class_collidable.html" title="Responsible for Collision functions." alt="" coords="19,56,98,83"/>
+<area shape="poly" title=" " alt="" coords="106,88,113,92,158,125,193,155,189,159,154,129,110,97,103,92"/>
+<area shape="rect" href="class_drawable.html" title="Responsible for 3D Draw functions." alt="" coords="20,107,97,133"/>
+<area shape="poly" title=" " alt="" coords="112,135,166,154,164,159,110,140"/>
+<area shape="rect" href="class_drawable2_d.html" title="Responsible for 2D Draw functions." alt="" coords="12,157,105,184"/>
+<area shape="poly" title=" " alt="" coords="120,168,159,168,159,173,120,173"/>
+<area shape="rect" href="class_inputable.html" title="Responsible for Input functions." alt="" coords="21,208,96,235"/>
+<area shape="poly" title=" " alt="" coords="109,201,165,182,166,187,111,206"/>
+<area shape="rect" href="class_occludable_obj.html" title="Responsible for Occlusion Object functions." alt="" coords="5,259,112,285"/>
+<area shape="poly" title=" " alt="" coords="103,249,110,244,154,212,189,182,193,186,158,216,113,249,106,253"/>
+<area shape="rect" href="class_updatable.html" title="Responsible for Update functions." alt="" coords="18,309,99,336"/>
+<area shape="poly" title=" " alt="" coords="105,299,110,295,138,267,163,236,196,183,200,186,167,239,142,271,113,299,109,303"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_1.png" border="0" usemap="#a_alarmable_manager" alt=""/>
@@ -160,62 +162,106 @@ $(function(){initNavTree('hierarchy.html',''); initResizable(true); });
 <area shape="rect" href="class_image_manager.html" title="Singleton responisble for loading and retrieving images." alt="" coords="5,5,113,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" usemap="#a_math_tools" alt=""/>
+<tr><td><img src="inherit_graph_8.png" border="0" usemap="#a_listener" alt=""/>
+<map name="a_listener" id="a_listener">
+<area shape="rect" href="class_listener.html" title="Responsible for Listener Object. Go To Scene for proper use." alt="" coords="5,5,73,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" usemap="#a_math_tools" alt=""/>
 <map name="a_math_tools" id="a_math_tools">
 <area shape="rect" href="class_math_tools.html" title="Collection of Math Tools." alt="" coords="5,5,87,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" usemap="#a_model_manager" alt=""/>
+<tr><td><img src="inherit_graph_10.png" border="0" usemap="#a_model_manager" alt=""/>
 <map name="a_model_manager" id="a_model_manager">
 <area shape="rect" href="class_model_manager.html" title="Singleton responisble for loading and retrieving models." alt="" coords="5,5,112,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_10.png" border="0" usemap="#a_panel" alt=""/>
+<tr><td><img src="inherit_graph_11.png" border="0" usemap="#a_panel" alt=""/>
 <map name="a_panel" id="a_panel">
 <area shape="rect" href="class_panel.html" title="Extra feature of ScreenLog." alt="" coords="5,5,60,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_11.png" border="0" usemap="#a_scene" alt=""/>
+<tr><td><img src="inherit_graph_12.png" border="0" usemap="#a_reverb_manager" alt=""/>
+<map name="a_reverb_manager" id="a_reverb_manager">
+<area shape="rect" href="class_reverb_manager.html" title="Singleton responisble for loading and retrieving Reverbs." alt="" coords="5,5,119,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_13.png" border="0" usemap="#a_reverb_manager_1_1_reverb_params" alt=""/>
+<map name="a_reverb_manager_1_1_reverb_params" id="a_reverb_manager_1_1_reverb_params">
+<area shape="rect" href="struct_reverb_manager_1_1_reverb_params.html" title="Struct representing Parameters for Reverbs." alt="" coords="5,5,214,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_14.png" border="0" usemap="#a_reverb_space" alt=""/>
+<map name="a_reverb_space" id="a_reverb_space">
+<area shape="rect" href="class_reverb_space.html" title="Responsible for Reverb Space functions. Go to Scene for Creation and Destruction." alt="" coords="5,5,106,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_15.png" border="0" usemap="#a_scene" alt=""/>
 <map name="a_scene" id="a_scene">
 <area shape="rect" href="class_scene.html" title="Responsible for Scene functions." alt="" coords="5,5,64,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_12.png" border="0" usemap="#a_scene_manager" alt=""/>
+<tr><td><img src="inherit_graph_16.png" border="0" usemap="#a_scene_manager" alt=""/>
 <map name="a_scene_manager" id="a_scene_manager">
 <area shape="rect" href="class_scene_manager.html" title="Singleton responsible for getting scenes and scene swapping." alt="" coords="5,5,114,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" usemap="#a_screen_log" alt=""/>
+<tr><td><img src="inherit_graph_17.png" border="0" usemap="#a_screen_log" alt=""/>
 <map name="a_screen_log" id="a_screen_log">
 <area shape="rect" href="class_screen_log.html" title="Debug Tool for Logging information to the top left or panels." alt="" coords="5,5,89,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" usemap="#a_shader_manager" alt=""/>
+<tr><td><img src="inherit_graph_18.png" border="0" usemap="#a_shader_manager" alt=""/>
 <map name="a_shader_manager" id="a_shader_manager">
 <area shape="rect" href="class_shader_manager.html" title="Singleton responisble for loading and retrieving shaders." alt="" coords="5,5,118,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" usemap="#a_sprite" alt=""/>
+<tr><td><img src="inherit_graph_19.png" border="0" usemap="#a_sound_manager" alt=""/>
+<map name="a_sound_manager" id="a_sound_manager">
+<area shape="rect" href="class_sound_manager.html" title="Singleton responisble for loading and retrieving Sounds." alt="" coords="5,5,114,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_20.png" border="0" usemap="#a_sound_source_base" alt=""/>
+<map name="a_sound_source_base" id="a_sound_source_base">
+<area shape="rect" href="class_sound_source_base.html" title="Responsible for Base of Sound Sources. Go To Scene for creation and destruction." alt="" coords="5,31,135,57"/>
+<area shape="rect" href="class_occludable_snd.html" title="Responsible for Occlusion Sound functions." alt="" coords="183,5,292,32"/>
+<area shape="poly" title=" " alt="" coords="150,29,182,24,183,30,151,35"/>
+<area shape="rect" href="class_reverbable.html" title="Responsible for Reverb functions." alt="" coords="194,56,281,83"/>
+<area shape="poly" title=" " alt="" coords="150,53,194,60,193,65,149,59"/>
+<area shape="rect" href="class_sound_source_world.html" title="Responsible for Sound Sources that can be placed in world space. Go To Scene for creation and destruc..." alt="" coords="346,5,479,32"/>
+<area shape="poly" title=" " alt="" coords="308,16,346,16,346,21,308,21"/>
+<area shape="poly" title=" " alt="" coords="295,50,363,30,364,35,297,55"/>
+<area shape="rect" href="class_sound_source_listener.html" title="Responsible for Sound Sources that always play at the Listener&#39;s position. Go To Scene for creation a..." alt="" coords="340,56,485,83"/>
+<area shape="poly" title=" " alt="" coords="296,67,340,67,340,72,296,72"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_21.png" border="0" usemap="#a_sprite" alt=""/>
 <map name="a_sprite" id="a_sprite">
 <area shape="rect" href="class_sprite.html" title="Responsible for Sprite Creation and Positioning." alt="" coords="5,5,61,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" usemap="#a_sprite_string" alt=""/>
+<tr><td><img src="inherit_graph_22.png" border="0" usemap="#a_sprite_string" alt=""/>
 <map name="a_sprite_string" id="a_sprite_string">
 <area shape="rect" href="class_sprite_string.html" title="Responsible for writing text to the screen." alt="" coords="5,5,95,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" usemap="#a_texture_manager" alt=""/>
+<tr><td><img src="inherit_graph_23.png" border="0" usemap="#a_terrain_object_manager" alt=""/>
+<map name="a_terrain_object_manager" id="a_terrain_object_manager">
+<area shape="rect" href="class_terrain_object_manager.html" title="Singleton responisble for loading and retrieving TerrainObjects. For more Terrain Tools go to Scene." alt="" coords="5,5,154,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_24.png" border="0" usemap="#a_texture_manager" alt=""/>
 <map name="a_texture_manager" id="a_texture_manager">
 <area shape="rect" href="class_texture_manager.html" title="Singleton responisble for loading and retrieving textures." alt="" coords="5,5,120,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_18.png" border="0" usemap="#a_time_manager" alt=""/>
+<tr><td><img src="inherit_graph_25.png" border="0" usemap="#a_time_manager" alt=""/>
 <map name="a_time_manager" id="a_time_manager">
 <area shape="rect" href="class_time_manager.html" title="Responsible for Tracking Time and Freeze Frame mode." alt="" coords="5,5,106,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" usemap="#a_visualizer" alt=""/>
+<tr><td><img src="inherit_graph_26.png" border="0" usemap="#a_visualizer" alt=""/>
 <map name="a_visualizer" id="a_visualizer">
 <area shape="rect" href="class_visualizer.html" title="Debugging tool for visualizing information." alt="" coords="5,5,84,32"/>
 </map>

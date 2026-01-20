@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['white_0',['WHITE',['../class_texture_manager.html#a59b4c1574983920c0cbfab692a5f4e4aab5bf627e448384cf3a4c35121ca6008d',1,'TextureManager']]]
+  ['textureflat_0',['TEXTUREFLAT',['../class_shader_manager.html#a4aab0b071c2c5414d2cc7d60d05cca91ac1a6d130065c4f09186de1a4beff6edb',1,'ShaderManager']]],
+  ['texturelight_1',['TEXTURELIGHT',['../class_shader_manager.html#a4aab0b071c2c5414d2cc7d60d05cca91a755f7f3b3796be7a6a880033cbc3e1b3',1,'ShaderManager']]]
 ];

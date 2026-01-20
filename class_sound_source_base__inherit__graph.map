@@ -1,0 +1,7 @@
+<map id="SoundSourceBase" name="SoundSourceBase">
+<area shape="rect" id="Node000001" title="Responsible for Base of Sound Sources. Go To Scene for creation and destruction." alt="" coords="21,5,211,448"/>
+<area shape="rect" id="Node000002" href="$class_occludable_snd.html" title="Responsible for Occlusion Sound functions." alt="" coords="5,496,226,587"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,463,118,496,113,496,113,463"/>
+<area shape="rect" id="Node000003" href="$class_sound_source_world.html" title="Responsible for Sound Sources that can be placed in world space. Go To Scene for creation and destruc..." alt="" coords="36,635,196,853"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,602,118,635,113,635,113,602"/>
+</map>

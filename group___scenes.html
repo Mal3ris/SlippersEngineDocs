@@ -143,20 +143,22 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
 <div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_scene.html#a7ee59d0b99655cf153ca4156976efc06">SceneEnd</a>();</div>
 <div class="line">};</div>
 <div class="ttc" id="a_scene_8h_html"><div class="ttname"><a href="_scene_8h.html">Scene.h</a></div></div>
-<div class="ttc" id="aclass_scene_html"><div class="ttname"><a href="class_scene.html">Scene</a></div><div class="ttdoc">Responsible for Scene functions.</div><div class="ttdef"><b>Definition</b> Scene.h:85</div></div>
-<div class="ttc" id="aclass_scene_html_a4aa30bd33a5bd56a26e224318579f60c"><div class="ttname"><a href="class_scene.html#a4aa30bd33a5bd56a26e224318579f60c">Scene::Initialize</a></div><div class="ttdeci">virtual void Initialize()</div><div class="ttdoc">Function automatically called on scene starting.</div><div class="ttdef"><b>Definition</b> Scene.h:132</div></div>
-<div class="ttc" id="aclass_scene_html_a7ee59d0b99655cf153ca4156976efc06"><div class="ttname"><a href="class_scene.html#a7ee59d0b99655cf153ca4156976efc06">Scene::SceneEnd</a></div><div class="ttdeci">virtual void SceneEnd()</div><div class="ttdoc">Function automatically called on scene ending.</div><div class="ttdef"><b>Definition</b> Scene.h:138</div></div>
+<div class="ttc" id="aclass_scene_html"><div class="ttname"><a href="class_scene.html">Scene</a></div><div class="ttdoc">Responsible for Scene functions.</div><div class="ttdef"><b>Definition</b> Scene.h:101</div></div>
+<div class="ttc" id="aclass_scene_html_a4aa30bd33a5bd56a26e224318579f60c"><div class="ttname"><a href="class_scene.html#a4aa30bd33a5bd56a26e224318579f60c">Scene::Initialize</a></div><div class="ttdeci">virtual void Initialize()</div><div class="ttdoc">Function automatically called on scene starting.</div><div class="ttdef"><b>Definition</b> Scene.h:264</div></div>
+<div class="ttc" id="aclass_scene_html_a7ee59d0b99655cf153ca4156976efc06"><div class="ttname"><a href="class_scene.html#a7ee59d0b99655cf153ca4156976efc06">Scene::SceneEnd</a></div><div class="ttdeci">virtual void SceneEnd()</div><div class="ttdoc">Function automatically called on scene ending.</div><div class="ttdef"><b>Definition</b> Scene.h:270</div></div>
 </div><!-- fragment --><p> SceneDemo.cpp </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;SceneDemo.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &quot;DemoObjOne.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;DemoObjTwo.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> SceneDemo::Initialize() {</div>
+<div class="line">    SetTerrain(<span class="stringliteral">&quot;Demo Terrain&quot;</span>);</div>
 <div class="line">    objOne = <span class="keyword">new</span> DemoObjOne();</div>
 <div class="line">    objTwo = <span class="keyword">new</span> DemoObjTwo();</div>
 <div class="line"> </div>
 <div class="line">    SetCollisionPair&lt;DemoObjOne, DemoObjTwo&gt;();</div>
 <div class="line">    SetCollisionSelf&lt;DemoObjOne&gt;();</div>
+<div class="line">    SettCollisionTerrain&lt;DemoObjOne&gt;(3);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> SceneDemo::SceneEnd() {</div>

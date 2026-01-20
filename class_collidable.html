@@ -103,8 +103,9 @@ $(function(){initNavTree('class_collidable.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_collidable-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Collidable Class Reference<div class="ingroups"><a class="el" href="group___game_objects.html">Game Objects</a></div></div></div>
 </div><!--header-->
@@ -119,10 +120,25 @@ Collaboration diagram for Collidable:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_collidable__coll__graph.png" border="0" usemap="#a_collidable_coll__map" alt="Collaboration graph"/></div>
 <map name="a_collidable_coll__map" id="a_collidable_coll__map">
-<area shape="rect" title="Responsible for Collision functions." alt="" coords="5,5,207,229"/>
+<area shape="rect" title="Responsible for Collision functions." alt="" coords="5,5,227,229"/>
 </map>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ad8001f525589605653f3a058356209f8" id="r_ad8001f525589605653f3a058356209f8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8001f525589605653f3a058356209f8">VOLUME_TYPE</a> { <a class="el" href="#ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6">BSPHERE</a>
+, <a class="el" href="#ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99">AABB</a>
+, <a class="el" href="#ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da">OBB</a>
+ }</td></tr>
+<tr class="memdesc:ad8001f525589605653f3a058356209f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">3 Types of Collision Tests  <a href="#ad8001f525589605653f3a058356209f8">More...</a><br /></td></tr>
+<tr class="separator:ad8001f525589605653f3a058356209f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6f5208549d3900c66e76b3ac60696cbb" id="r_a6f5208549d3900c66e76b3ac60696cbb"><td class="memItemLeft" align="right" valign="top">const CollisionVolume &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5208549d3900c66e76b3ac60696cbb">GetColVolume</a> ()</td></tr>
+<tr class="memdesc:a6f5208549d3900c66e76b3ac60696cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the Collider Model's Collision Volume.  <br /></td></tr>
+<tr class="separator:a6f5208549d3900c66e76b3ac60696cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:add19f3dbe5cad788986e652252251678" id="r_add19f3dbe5cad788986e652252251678"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add19f3dbe5cad788986e652252251678">SubmitRegistration</a> ()</td></tr>
@@ -131,9 +147,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a01c3a0bd441b72e0823942ca54d484dd" id="r_a01c3a0bd441b72e0823942ca54d484dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01c3a0bd441b72e0823942ca54d484dd">SubmitDeregistration</a> ()</td></tr>
 <tr class="memdesc:a01c3a0bd441b72e0823942ca54d484dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when wanting to stop checking for collisions.  <br /></td></tr>
 <tr class="separator:a01c3a0bd441b72e0823942ca54d484dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d1beabe13a24d5979766c72d8017b3" id="r_aa6d1beabe13a24d5979766c72d8017b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d1beabe13a24d5979766c72d8017b3">SetColliderModel</a> (Model *mod)</td></tr>
-<tr class="memdesc:aa6d1beabe13a24d5979766c72d8017b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores an Objects Collision Model for calculating collisions.  <br /></td></tr>
-<tr class="separator:aa6d1beabe13a24d5979766c72d8017b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638d910f8e6b9de76f033e1d25d470df" id="r_a638d910f8e6b9de76f033e1d25d470df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a638d910f8e6b9de76f033e1d25d470df">SetColliderModel</a> (Model *mod, <a class="el" href="#ad8001f525589605653f3a058356209f8">VOLUME_TYPE</a> vt)</td></tr>
+<tr class="memdesc:a638d910f8e6b9de76f033e1d25d470df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores an Objects Collision Model for calculating collisions.  <br /></td></tr>
+<tr class="separator:a638d910f8e6b9de76f033e1d25d470df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abda6bc1b9af57826bbfd32b09b1219cb" id="r_abda6bc1b9af57826bbfd32b09b1219cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abda6bc1b9af57826bbfd32b09b1219cb">UpdateCollisionData</a> (const Matrix &amp;mat)</td></tr>
 <tr class="memdesc:abda6bc1b9af57826bbfd32b09b1219cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Objects Collision Model for proper scaling and positioning.  <br /></td></tr>
 <tr class="separator:abda6bc1b9af57826bbfd32b09b1219cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,12 +157,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:acb4f120f1833dabab33de2432dec35a8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#acb4f120f1833dabab33de2432dec35a8">SetCollidableGroup</a> ()</td></tr>
 <tr class="memdesc:acb4f120f1833dabab33de2432dec35a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a DemoObject to be part of a Collision Group.  <br /></td></tr>
 <tr class="separator:acb4f120f1833dabab33de2432dec35a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a6aee8b1571e98b7fda6c7a683094558f" id="r_a6aee8b1571e98b7fda6c7a683094558f"><td class="memItemLeft" align="right" valign="top">const CollisionVolumeBSphere &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aee8b1571e98b7fda6c7a683094558f">GetBSphere</a> ()</td></tr>
-<tr class="memdesc:a6aee8b1571e98b7fda6c7a683094558f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the Collider Model's BSphere.  <br /></td></tr>
-<tr class="separator:a6aee8b1571e98b7fda6c7a683094558f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Responsible for Collision functions. </p>
@@ -172,9 +182,9 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
 <div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_scene.html#a7ee59d0b99655cf153ca4156976efc06">SceneEnd</a>();</div>
 <div class="line">};</div>
 <div class="ttc" id="a_scene_8h_html"><div class="ttname"><a href="_scene_8h.html">Scene.h</a></div></div>
-<div class="ttc" id="aclass_scene_html"><div class="ttname"><a href="class_scene.html">Scene</a></div><div class="ttdoc">Responsible for Scene functions.</div><div class="ttdef"><b>Definition</b> Scene.h:85</div></div>
-<div class="ttc" id="aclass_scene_html_a4aa30bd33a5bd56a26e224318579f60c"><div class="ttname"><a href="class_scene.html#a4aa30bd33a5bd56a26e224318579f60c">Scene::Initialize</a></div><div class="ttdeci">virtual void Initialize()</div><div class="ttdoc">Function automatically called on scene starting.</div><div class="ttdef"><b>Definition</b> Scene.h:132</div></div>
-<div class="ttc" id="aclass_scene_html_a7ee59d0b99655cf153ca4156976efc06"><div class="ttname"><a href="class_scene.html#a7ee59d0b99655cf153ca4156976efc06">Scene::SceneEnd</a></div><div class="ttdeci">virtual void SceneEnd()</div><div class="ttdoc">Function automatically called on scene ending.</div><div class="ttdef"><b>Definition</b> Scene.h:138</div></div>
+<div class="ttc" id="aclass_scene_html"><div class="ttname"><a href="class_scene.html">Scene</a></div><div class="ttdoc">Responsible for Scene functions.</div><div class="ttdef"><b>Definition</b> Scene.h:101</div></div>
+<div class="ttc" id="aclass_scene_html_a4aa30bd33a5bd56a26e224318579f60c"><div class="ttname"><a href="class_scene.html#a4aa30bd33a5bd56a26e224318579f60c">Scene::Initialize</a></div><div class="ttdeci">virtual void Initialize()</div><div class="ttdoc">Function automatically called on scene starting.</div><div class="ttdef"><b>Definition</b> Scene.h:264</div></div>
+<div class="ttc" id="aclass_scene_html_a7ee59d0b99655cf153ca4156976efc06"><div class="ttname"><a href="class_scene.html#a7ee59d0b99655cf153ca4156976efc06">Scene::SceneEnd</a></div><div class="ttdeci">virtual void SceneEnd()</div><div class="ttdoc">Function automatically called on scene ending.</div><div class="ttdef"><b>Definition</b> Scene.h:270</div></div>
 </div><!-- fragment --><p> SceneDemo.cpp </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;SceneDemo.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &quot;DemoObjOne.h&quot;</span></div>
@@ -213,7 +223,7 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
 <div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_updatable.html#acf3e0052461248a862ea752ae9dc8185">Update</a>();</div>
 <div class="line">};</div>
 <div class="ttc" id="a_game_object_8h_html"><div class="ttname"><a href="_game_object_8h.html">GameObject.h</a></div></div>
-<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="class_game_object.html">GameObject</a></div><div class="ttdoc">Responsible for GameObject centralization.</div><div class="ttdef"><b>Definition</b> GameObject.h:179</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="class_game_object.html">GameObject</a></div><div class="ttdoc">Responsible for GameObject centralization.</div><div class="ttdef"><b>Definition</b> GameObject.h:182</div></div>
 <div class="ttc" id="aclass_updatable_html_acf3e0052461248a862ea752ae9dc8185"><div class="ttname"><a href="class_updatable.html#acf3e0052461248a862ea752ae9dc8185">Updatable::Update</a></div><div class="ttdeci">virtual void Update()</div><div class="ttdoc">Fill this with code that occurs during the Update phase.</div><div class="ttdef"><b>Definition</b> Updatable.h:54</div></div>
 </div><!-- fragment --><p> DemoObjOne.cpp </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;DemoObjOne.h&quot;</span></div>
 <div class="line"> </div>
@@ -229,7 +239,8 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
 <div class="line">    </div>
 <div class="line">    demoGraphicsObj = <span class="keyword">new</span> GraphicsObject_TextureFlat(<a class="code hl_function" href="class_model_manager.html#a65cb09d8142189c886bc3b68ec92a57b">ModelManager::GetModel</a>(<span class="stringliteral">&quot;Demo Model One&quot;</span>), <a class="code hl_function" href="class_shader_manager.html#a1ff82726c5db2bfc655a26d5569b42d8">ShaderManager::GetShader</a>(<a class="code hl_enumvalue" href="class_shader_manager.html#a4aab0b071c2c5414d2cc7d60d05cca91ac1a6d130065c4f09186de1a4beff6edb">ShaderManager::DefaultShaders::TEXTUREFLAT</a>), <a class="code hl_function" href="class_texture_manager.html#a41299d5ed694395ad4db4ae5fe69db31">TextureManager::GetTexture</a>(<span class="stringliteral">&quot;Demo Texture One&quot;</span>));</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_function" href="#aa6d1beabe13a24d5979766c72d8017b3">Collidable::SetColliderModel</a>(demoGraphicsObj-&gt;getModel());</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_function" href="#a638d910f8e6b9de76f033e1d25d470df">Collidable::SetColliderModel</a>(demoGraphicsObj-&gt;getModel(), <a class="code hl_enumvalue" href="#ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6">VOLUME_TYPE::BSPHERE</a>);</div>
 <div class="line"> </div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -252,10 +263,11 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
 <div class="ttc" id="a_scene_manager_8h_html"><div class="ttname"><a href="_scene_manager_8h.html">SceneManager.h</a></div></div>
 <div class="ttc" id="a_shader_manager_8h_html"><div class="ttname"><a href="_shader_manager_8h.html">ShaderManager.h</a></div></div>
 <div class="ttc" id="a_texture_manager_8h_html"><div class="ttname"><a href="_texture_manager_8h.html">TextureManager.h</a></div></div>
-<div class="ttc" id="aclass_collidable_html_aa6d1beabe13a24d5979766c72d8017b3"><div class="ttname"><a href="#aa6d1beabe13a24d5979766c72d8017b3">Collidable::SetColliderModel</a></div><div class="ttdeci">void SetColliderModel(Model *mod)</div><div class="ttdoc">Stores an Objects Collision Model for calculating collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:61</div></div>
-<div class="ttc" id="aclass_collidable_html_abda6bc1b9af57826bbfd32b09b1219cb"><div class="ttname"><a href="#abda6bc1b9af57826bbfd32b09b1219cb">Collidable::UpdateCollisionData</a></div><div class="ttdeci">void UpdateCollisionData(const Matrix &amp;mat)</div><div class="ttdoc">Updates Objects Collision Model for proper scaling and positioning.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:65</div></div>
-<div class="ttc" id="aclass_collidable_html_acb4f120f1833dabab33de2432dec35a8"><div class="ttname"><a href="#acb4f120f1833dabab33de2432dec35a8">Collidable::SetCollidableGroup</a></div><div class="ttdeci">void SetCollidableGroup()</div><div class="ttdoc">Registers a DemoObject to be part of a Collision Group.</div><div class="ttdef"><b>Definition</b> Collidable.h:281</div></div>
-<div class="ttc" id="aclass_model_manager_html_a65cb09d8142189c886bc3b68ec92a57b"><div class="ttname"><a href="class_model_manager.html#a65cb09d8142189c886bc3b68ec92a57b">ModelManager::GetModel</a></div><div class="ttdeci">static Model * GetModel(const MapKey &amp;key)</div><div class="ttdoc">Returns model pointer with given KEY.</div><div class="ttdef"><b>Definition</b> ModelManager.h:98</div></div>
+<div class="ttc" id="aclass_collidable_html_a638d910f8e6b9de76f033e1d25d470df"><div class="ttname"><a href="#a638d910f8e6b9de76f033e1d25d470df">Collidable::SetColliderModel</a></div><div class="ttdeci">void SetColliderModel(Model *mod, VOLUME_TYPE vt)</div><div class="ttdoc">Stores an Objects Collision Model for calculating collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:71</div></div>
+<div class="ttc" id="aclass_collidable_html_abda6bc1b9af57826bbfd32b09b1219cb"><div class="ttname"><a href="#abda6bc1b9af57826bbfd32b09b1219cb">Collidable::UpdateCollisionData</a></div><div class="ttdeci">void UpdateCollisionData(const Matrix &amp;mat)</div><div class="ttdoc">Updates Objects Collision Model for proper scaling and positioning.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:89</div></div>
+<div class="ttc" id="aclass_collidable_html_acb4f120f1833dabab33de2432dec35a8"><div class="ttname"><a href="#acb4f120f1833dabab33de2432dec35a8">Collidable::SetCollidableGroup</a></div><div class="ttdeci">void SetCollidableGroup()</div><div class="ttdoc">Registers a DemoObject to be part of a Collision Group.</div><div class="ttdef"><b>Definition</b> Collidable.h:293</div></div>
+<div class="ttc" id="aclass_collidable_html_ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6"><div class="ttname"><a href="#ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6">Collidable::VOLUME_TYPE::BSPHERE</a></div><div class="ttdeci">@ BSPHERE</div><div class="ttdef"><b>Definition</b> Collidable.h:193</div></div>
+<div class="ttc" id="aclass_model_manager_html_a65cb09d8142189c886bc3b68ec92a57b"><div class="ttname"><a href="class_model_manager.html#a65cb09d8142189c886bc3b68ec92a57b">ModelManager::GetModel</a></div><div class="ttdeci">static Model * GetModel(const MapKey &amp;key)</div><div class="ttdoc">Load Shader with KEY and AZUL&#39;s PREMADEMODELS.</div><div class="ttdef"><b>Definition</b> ModelManager.h:98</div></div>
 <div class="ttc" id="aclass_shader_manager_html_a1ff82726c5db2bfc655a26d5569b42d8"><div class="ttname"><a href="class_shader_manager.html#a1ff82726c5db2bfc655a26d5569b42d8">ShaderManager::GetShader</a></div><div class="ttdeci">static ShaderObject * GetShader(const MapKey &amp;key)</div><div class="ttdoc">Returns shader object pointer with given KEY.</div><div class="ttdef"><b>Definition</b> ShaderManager.h:71</div></div>
 <div class="ttc" id="aclass_shader_manager_html_a4aab0b071c2c5414d2cc7d60d05cca91ac1a6d130065c4f09186de1a4beff6edb"><div class="ttname"><a href="class_shader_manager.html#a4aab0b071c2c5414d2cc7d60d05cca91ac1a6d130065c4f09186de1a4beff6edb">ShaderManager::DefaultShaders::TEXTUREFLAT</a></div><div class="ttdeci">@ TEXTUREFLAT</div><div class="ttdef"><b>Definition</b> ShaderManager.h:20</div></div>
 <div class="ttc" id="aclass_texture_manager_html_a41299d5ed694395ad4db4ae5fe69db31"><div class="ttname"><a href="class_texture_manager.html#a41299d5ed694395ad4db4ae5fe69db31">TextureManager::GetTexture</a></div><div class="ttdeci">static Texture * GetTexture(const MapKey &amp;key)</div><div class="ttdoc">Returns texture pointer with given KEY.</div><div class="ttdef"><b>Definition</b> TextureManager.h:134</div></div>
@@ -292,7 +304,7 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
 <div class="line">    </div>
 <div class="line">    demoGraphicsObj = <span class="keyword">new</span> GraphicsObject_TextureFlat(<a class="code hl_function" href="class_model_manager.html#a65cb09d8142189c886bc3b68ec92a57b">ModelManager::GetModel</a>(<span class="stringliteral">&quot;Demo Model Two&quot;</span>), <a class="code hl_function" href="class_shader_manager.html#a1ff82726c5db2bfc655a26d5569b42d8">ShaderManager::GetShader</a>(<a class="code hl_enumvalue" href="class_shader_manager.html#a4aab0b071c2c5414d2cc7d60d05cca91ac1a6d130065c4f09186de1a4beff6edb">ShaderManager::DefaultShaders::TEXTUREFLAT</a>), <a class="code hl_function" href="class_texture_manager.html#a41299d5ed694395ad4db4ae5fe69db31">TextureManager::GetTexture</a>(<span class="stringliteral">&quot;Demo Texture Two&quot;</span>));</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_function" href="#aa6d1beabe13a24d5979766c72d8017b3">Collidable::SetColliderModel</a>(demoGraphicsObj-&gt;getModel());</div>
+<div class="line">    <a class="code hl_function" href="#a638d910f8e6b9de76f033e1d25d470df">Collidable::SetColliderModel</a>(demoGraphicsObj-&gt;getModel(), <a class="code hl_enumvalue" href="#ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da">VOLUME_TYPE::OBB</a>);</div>
 <div class="line"> </div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -307,9 +319,10 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
 <div class="line"><span class="keywordtype">void</span> DemoObjOne::Collision(DemoObjOne*){</div>
 <div class="line">    <span class="comment">//Do Collision Stuff with Obj Ones</span></div>
 <div class="line">}</div>
-</div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6aee8b1571e98b7fda6c7a683094558f" name="a6aee8b1571e98b7fda6c7a683094558f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aee8b1571e98b7fda6c7a683094558f">&#9670;&#160;</a></span>GetBSphere()</h2>
+<div class="ttc" id="aclass_collidable_html_ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da"><div class="ttname"><a href="#ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da">Collidable::VOLUME_TYPE::OBB</a></div><div class="ttdeci">@ OBB</div><div class="ttdef"><b>Definition</b> Collidable.h:193</div></div>
+</div><!-- fragment --> </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ad8001f525589605653f3a058356209f8" name="ad8001f525589605653f3a058356209f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8001f525589605653f3a058356209f8">&#9670;&#160;</a></span>VOLUME_TYPE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,26 +331,48 @@ SceneDemo.h </p><div class="fragment"><div class="line"><span class="preprocesso
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const CollisionVolumeBSphere &amp; Collidable::GetBSphere </td>
+          <td class="memname">enum class <a class="el" href="#ad8001f525589605653f3a058356209f8">Collidable::VOLUME_TYPE</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>3 Types of Collision Tests </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6" name="ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6"></a>BSPHERE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99" name="ad8001f525589605653f3a058356209f8a4276d50f05d2cac4c98c17337ac30c99"></a>AABB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da" name="ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da"></a>OBB&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6f5208549d3900c66e76b3ac60696cbb" name="a6f5208549d3900c66e76b3ac60696cbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f5208549d3900c66e76b3ac60696cbb">&#9670;&#160;</a></span>GetColVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const CollisionVolume &amp; Collidable::GetColVolume </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Retrieves the Collider Model's BSphere. </p>
-<p>This will mainly be used when needing to visualize an object's BSphere.</p>
-<p>Example: </p><div class="fragment"><div class="line"><a class="code hl_function" href="class_visualizer.html#a9497d6a388c07054c3a093867595f3ef">Visualizer::ShowBSphere</a>(this-&gt;<a class="code hl_function" href="#a6aee8b1571e98b7fda6c7a683094558f">GetBSphere</a>(), <a class="code hl_variable" href="namespace_color.html#ae115f546073b973028ed9a2c5b86969b">Color::Red</a>);</div>
-<div class="ttc" id="aclass_collidable_html_a6aee8b1571e98b7fda6c7a683094558f"><div class="ttname"><a href="#a6aee8b1571e98b7fda6c7a683094558f">Collidable::GetBSphere</a></div><div class="ttdeci">const CollisionVolumeBSphere &amp; GetBSphere()</div><div class="ttdoc">Retrieves the Collider Model&#39;s BSphere.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:57</div></div>
-<div class="ttc" id="aclass_visualizer_html_a9497d6a388c07054c3a093867595f3ef"><div class="ttname"><a href="class_visualizer.html#a9497d6a388c07054c3a093867595f3ef">Visualizer::ShowBSphere</a></div><div class="ttdeci">static void ShowBSphere(const CollisionVolumeBSphere &amp;S, const Vect &amp;col=DEFAULT_COLOR)</div><div class="ttdoc">Shows B Sphere of an object using a given color.</div><div class="ttdef"><b>Definition</b> Visualizer.cpp:41</div></div>
+<p>Retrieves the Collider Model's Collision Volume. </p>
+<p>This will mainly be used when needing to visualize an object's Collision Volume.</p>
+<p>Example: </p><div class="fragment"><div class="line"><a class="code hl_function" href="class_visualizer.html#ad15260b7fcb3da7be4155d4e4719b40e">Visualizer::ShowCollisionVolume</a>(this-&gt;<a class="code hl_function" href="#a6f5208549d3900c66e76b3ac60696cbb">GetColVolume</a>(), <a class="code hl_variable" href="namespace_color.html#ae115f546073b973028ed9a2c5b86969b">Color::Red</a>);</div>
+<div class="ttc" id="aclass_collidable_html_a6f5208549d3900c66e76b3ac60696cbb"><div class="ttname"><a href="#a6f5208549d3900c66e76b3ac60696cbb">Collidable::GetColVolume</a></div><div class="ttdeci">const CollisionVolume &amp; GetColVolume()</div><div class="ttdoc">Retrieves the Collider Model&#39;s Collision Volume.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:63</div></div>
+<div class="ttc" id="aclass_visualizer_html_ad15260b7fcb3da7be4155d4e4719b40e"><div class="ttname"><a href="class_visualizer.html#ad15260b7fcb3da7be4155d4e4719b40e">Visualizer::ShowCollisionVolume</a></div><div class="ttdeci">static void ShowCollisionVolume(const CollisionVolume &amp;cv, const Vect &amp;col=DEFAULT_COLOR)</div><div class="ttdoc">Shows a collision volume of an object using a given color.</div><div class="ttdef"><b>Definition</b> Visualizer.cpp:128</div></div>
 <div class="ttc" id="anamespace_color_html_ae115f546073b973028ed9a2c5b86969b"><div class="ttname"><a href="namespace_color.html#ae115f546073b973028ed9a2c5b86969b">Color::Red</a></div><div class="ttdeci">static const Vect Red</div><div class="ttdef"><b>Definition</b> ColorsCommon.h:132</div></div>
-</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>const CollisionVolumeBSphere&amp;</dd></dl>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>const CollisionVolume&amp;</dd></dl>
 
 </div>
 </div>
@@ -378,8 +413,8 @@ template&lt;typename C&gt; </div>
 
 </div>
 </div>
-<a id="aa6d1beabe13a24d5979766c72d8017b3" name="aa6d1beabe13a24d5979766c72d8017b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6d1beabe13a24d5979766c72d8017b3">&#9670;&#160;</a></span>SetColliderModel()</h2>
+<a id="a638d910f8e6b9de76f033e1d25d470df" name="a638d910f8e6b9de76f033e1d25d470df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a638d910f8e6b9de76f033e1d25d470df">&#9670;&#160;</a></span>SetColliderModel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,8 +425,12 @@ template&lt;typename C&gt; </div>
         <tr>
           <td class="memname">void Collidable::SetColliderModel </td>
           <td>(</td>
-          <td class="paramtype">Model *</td>          <td class="paramname"><span class="paramname"><em>mod</em></span></td><td>)</td>
+          <td class="paramtype">Model *</td>          <td class="paramname"><span class="paramname"><em>mod</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#ad8001f525589605653f3a058356209f8">VOLUME_TYPE</a></td>          <td class="paramname"><span class="paramname"><em>vt</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -403,9 +442,9 @@ template&lt;typename C&gt; </div>
 
 <p>Stores an Objects Collision Model for calculating collisions. </p>
 <p>This will normally be either the graphics object currently in use, or a low poly version of the same model.</p>
-<p>Example: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#aa6d1beabe13a24d5979766c72d8017b3">Collidable::SetColliderModel</a>(demoGraphicsObj-&gt;getModel());</div>
+<p>Example: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#a638d910f8e6b9de76f033e1d25d470df">Collidable::SetColliderModel</a>(demoGraphicsObj-&gt;getModel(), <a class="code hl_enumvalue" href="#ad8001f525589605653f3a058356209f8a39502159dce6c7d1efaf4c186bc1f1d6">VOLUME_TYPE::BSPHERE</a>);</div>
 <div class="line"> </div>
-<div class="line"><a class="code hl_function" href="#aa6d1beabe13a24d5979766c72d8017b3">Collidable::SetColliderModel</a>(demoGraphicsObjLowPoly-&gt;getModel());</div>
+<div class="line"><a class="code hl_function" href="#a638d910f8e6b9de76f033e1d25d470df">Collidable::SetColliderModel</a>(demoGraphicsObjLowPoly-&gt;getModel(), <a class="code hl_enumvalue" href="#ad8001f525589605653f3a058356209f8a9aac15e014ce3a36fcbf4a3f669332da">VOLUME_TYPE::OBB</a>);</div>
 </div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mod</td><td></td></tr>
@@ -440,7 +479,7 @@ template&lt;typename C&gt; </div>
 
 <p>Called when wanting to stop checking for collisions. </p>
 <p>Example: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#a01c3a0bd441b72e0823942ca54d484dd">Collidable::SubmitDeregistration</a>();</div>
-<div class="ttc" id="aclass_collidable_html_a01c3a0bd441b72e0823942ca54d484dd"><div class="ttname"><a href="#a01c3a0bd441b72e0823942ca54d484dd">Collidable::SubmitDeregistration</a></div><div class="ttdeci">void SubmitDeregistration()</div><div class="ttdoc">Called when wanting to stop checking for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:49</div></div>
+<div class="ttc" id="aclass_collidable_html_a01c3a0bd441b72e0823942ca54d484dd"><div class="ttname"><a href="#a01c3a0bd441b72e0823942ca54d484dd">Collidable::SubmitDeregistration</a></div><div class="ttdeci">void SubmitDeregistration()</div><div class="ttdoc">Called when wanting to stop checking for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:55</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -469,7 +508,7 @@ template&lt;typename C&gt; </div>
 
 <p>Called when wanting to check for collisions. </p>
 <p>Example: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#add19f3dbe5cad788986e652252251678">Collidable::SubmitRegistration</a>();</div>
-<div class="ttc" id="aclass_collidable_html_add19f3dbe5cad788986e652252251678"><div class="ttname"><a href="#add19f3dbe5cad788986e652252251678">Collidable::SubmitRegistration</a></div><div class="ttdeci">void SubmitRegistration()</div><div class="ttdoc">Called when wanting to check for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:41</div></div>
+<div class="ttc" id="aclass_collidable_html_add19f3dbe5cad788986e652252251678"><div class="ttname"><a href="#add19f3dbe5cad788986e652252251678">Collidable::SubmitRegistration</a></div><div class="ttdeci">void SubmitRegistration()</div><div class="ttdoc">Called when wanting to check for collisions.</div><div class="ttdef"><b>Definition</b> Collidable.cpp:47</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -497,7 +536,7 @@ template&lt;typename C&gt; </div>
 </div><div class="memdoc">
 
 <p>Updates Objects Collision Model for proper scaling and positioning. </p>
-<dl class="section warning"><dt>Warning</dt><dd>An object must have <a class="el" href="#aa6d1beabe13a24d5979766c72d8017b3" title="Stores an Objects Collision Model for calculating collisions.">SetColliderModel()</a> prior to calling this function</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>An object must have <a class="el" href="#a638d910f8e6b9de76f033e1d25d470df" title="Stores an Objects Collision Model for calculating collisions.">SetColliderModel()</a> prior to calling this function</dd></dl>
 <p>Example: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#abda6bc1b9af57826bbfd32b09b1219cb">Collidable::UpdateCollisionData</a>(demoGraphicsObj-&gt;getWorld());</div>
 </div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

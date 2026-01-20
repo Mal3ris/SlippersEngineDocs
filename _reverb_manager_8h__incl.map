@@ -1,0 +1,9 @@
+<map id="ReverbManager.h" name="ReverbManager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="172,5,296,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,167,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,35,127,75,124,70,207,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="191,80,277,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,33,237,64,231,64,231,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="302,80,348,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="251,30,299,68,296,72,248,35"/>
+</map>

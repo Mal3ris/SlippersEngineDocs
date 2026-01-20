@@ -1,7 +1,0 @@
-<map id="AlarmRegisterCommand" name="AlarmRegisterCommand">
-<area shape="rect" id="Node000001" title=" " alt="" coords="102,315,320,693"/>
-<area shape="rect" id="Node000002" href="$class_command_base.html" title=" " alt="" coords="5,19,187,237"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,251,156,314,151,316,131,253"/>
-<area shape="rect" id="Node000003" href="$class_alarmable.html" title="Responsible for Alarm functions." alt="" coords="212,5,440,251"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,251,276,299,271,298,286,250"/>
-</map>

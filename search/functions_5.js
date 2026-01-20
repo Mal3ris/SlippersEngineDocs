@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['initialize_0',['Initialize',['../class_scene.html#a4aa30bd33a5bd56a26e224318579f60c',1,'Scene']]]
+  ['initialize_0',['Initialize',['../class_scene.html#a4aa30bd33a5bd56a26e224318579f60c',1,'Scene']]],
+  ['isinsidereverbspace_1',['IsInsideReverbSpace',['../class_scene.html#a766658361239e7d1f0b3d8d8034d84d5',1,'Scene']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['panel_0',['Panel',['../class_panel.html',1,'']]]
+  ['mathtools_0',['MathTools',['../class_math_tools.html',1,'']]],
+  ['modelmanager_1',['ModelManager',['../class_model_manager.html',1,'']]]
 ];

@@ -1,9 +1,24 @@
 var searchData=
 [
-  ['texturemanager_2ecpp_0',['TextureManager.cpp',['../_texture_manager_8cpp.html',1,'']]],
-  ['texturemanager_2eh_1',['TextureManager.h',['../_texture_manager_8h.html',1,'']]],
-  ['texturemanagerattorney_2eh_2',['TextureManagerAttorney.h',['../_texture_manager_attorney_8h.html',1,'']]],
-  ['timemanager_2ecpp_3',['TimeManager.cpp',['../_time_manager_8cpp.html',1,'']]],
-  ['timemanager_2eh_4',['TimeManager.h',['../_time_manager_8h.html',1,'']]],
-  ['timemanagerattorney_2eh_5',['TimeManagerAttorney.h',['../_time_manager_attorney_8h.html',1,'']]]
+  ['registrationstatecommon_2eh_0',['RegistrationStateCommon.h',['../_registration_state_common_8h.html',1,'']]],
+  ['reverbable_2ecpp_1',['Reverbable.cpp',['../_reverbable_8cpp.html',1,'']]],
+  ['reverbable_2eh_2',['Reverbable.h',['../_reverbable_8h.html',1,'']]],
+  ['reverbableattorney_2eh_3',['ReverbableAttorney.h',['../_reverbable_attorney_8h.html',1,'']]],
+  ['reverbablederegistercommand_2ecpp_4',['ReverbableDeregisterCommand.cpp',['../_reverbable_deregister_command_8cpp.html',1,'']]],
+  ['reverbablederegistercommand_2eh_5',['ReverbableDeregisterCommand.h',['../_reverbable_deregister_command_8h.html',1,'']]],
+  ['reverbablemanager_2ecpp_6',['ReverbableManager.cpp',['../_reverbable_manager_8cpp.html',1,'']]],
+  ['reverbablemanager_2eh_7',['ReverbableManager.h',['../_reverbable_manager_8h.html',1,'']]],
+  ['reverbableregistercommand_2ecpp_8',['ReverbableRegisterCommand.cpp',['../_reverbable_register_command_8cpp.html',1,'']]],
+  ['reverbableregistercommand_2eh_9',['ReverbableRegisterCommand.h',['../_reverbable_register_command_8h.html',1,'']]],
+  ['reverbmanager_2ecpp_10',['ReverbManager.cpp',['../_reverb_manager_8cpp.html',1,'']]],
+  ['reverbmanager_2eh_11',['ReverbManager.h',['../_reverb_manager_8h.html',1,'']]],
+  ['reverbmanagerattorney_2eh_12',['ReverbManagerAttorney.h',['../_reverb_manager_attorney_8h.html',1,'']]],
+  ['reverbspace_2ecpp_13',['ReverbSpace.cpp',['../_reverb_space_8cpp.html',1,'']]],
+  ['reverbspace_2eh_14',['ReverbSpace.h',['../_reverb_space_8h.html',1,'']]],
+  ['reverbspaceattorney_2eh_15',['ReverbSpaceAttorney.h',['../_reverb_space_attorney_8h.html',1,'']]],
+  ['reverbspacefactory_2ecpp_16',['ReverbSpaceFactory.cpp',['../_reverb_space_factory_8cpp.html',1,'']]],
+  ['reverbspacefactory_2eh_17',['ReverbSpaceFactory.h',['../_reverb_space_factory_8h.html',1,'']]],
+  ['reverbspacefactoryattorney_2eh_18',['ReverbSpaceFactoryAttorney.h',['../_reverb_space_factory_attorney_8h.html',1,'']]],
+  ['reverbspacemanager_2ecpp_19',['ReverbSpaceManager.cpp',['../_reverb_space_manager_8cpp.html',1,'']]],
+  ['reverbspacemanager_2eh_20',['ReverbSpaceManager.h',['../_reverb_space_manager_8h.html',1,'']]]
 ];
